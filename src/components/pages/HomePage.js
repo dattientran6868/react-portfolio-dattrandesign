@@ -29,7 +29,6 @@ export default function HomePage() {
   const logoFreemindVideoRef = useLazyVideo();
   const productSelectionVideoRef = useLazyVideo();
   const audienceVideoRef = useLazyVideo();
-  const previewGradientVideoRef = useLazyVideo();
   const waveGradientVideoRef = useLazyVideo();
   const mercuryGradientVideoRef = useLazyVideo();
   const navigate = useNavigate();
@@ -263,7 +262,7 @@ export default function HomePage() {
             label="Measurement card"
             onClick={() => setmeasurementCardModalOpen(true)}
             style={{ cursor: "pointer" }}>
-            <img src="images/home images/Illumin-footfall-card.png"></img>
+            <img src="images/home images/Illumin-footfall-card.png" alt=""></img>
           </BentoCell>
         </BentoRow>
 
@@ -450,7 +449,7 @@ export default function HomePage() {
       >
         {measurementCardModalOpen && (
           <div>
-            <img src="/images/home images/Illumin-footfall-card.png" />
+            <img src="/images/home images/Illumin-footfall-card.png" alt="" />
           </div>
         )}
         <p>I designed the measurement card for the Measurement Marketplace, and it was later reused in the Footfall Measurement feature.
@@ -466,7 +465,7 @@ export default function HomePage() {
       >
         {stockAppModalOpen && (
           <div>
-            <img src="/images/home images/s2.png" />
+            <img src="/images/home images/s2.png" alt="" />
           </div>
         )}
         <p>(Coming soon) I designed and developed an iOS app that helps retail investors track insider trading activity in public companies, making investment research more transparent and accessible.

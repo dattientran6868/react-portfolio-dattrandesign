@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import '../../../App.css';
 import './DynamicGradient.css';
 import Sidebar from '../../Sidebar';
-import { BentoGrid } from "../../Grid";
 import { BentoRow } from "../../Grid";
 import { BentoCell } from "../../Grid";
 
@@ -10,14 +9,14 @@ import { BentoCell } from "../../Grid";
 function DynamicGradient() {
     const [activeSection, setActiveSection] = useState(null);
 
-    const sections = [
+    const sections = useMemo(() => [
         { id: 'section1', title: '1. Project overview' },
         { id: 'section2', title: '2. Mercury gradient' },
         { id: 'section3', title: '3. Wave gradient' },
         { id: 'section4', title: '4. Plasma gradient' },
         { id: 'section5', title: '5. Customizations and other features' },
         { id: 'section6', title: '6. Experience the tool on the wesbite' },
-    ];
+    ], [])
 
     useEffect(() => {
         const handleScroll = () => {
@@ -57,7 +56,7 @@ function DynamicGradient() {
     return (
         <div className="project__container dynamic__gradient" >
             <div className="large__image__grid">
-                <img src='images/project images/DG/DG-0.png'></img>
+                <img src='images/project images/DG/DG-0.png' alt=""></img>
             </div>
 
             <div id="section1">

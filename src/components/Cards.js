@@ -4,7 +4,6 @@ import React from 'react';
 import CardItem from './Carditem';
 import './Cards.css';
 import { Fade } from "react-awesome-reveal";
-import { Button } from './Button';
 
 function Cards() {
 	return (

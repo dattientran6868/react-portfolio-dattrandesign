@@ -1,16 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import '../../../App.css';
 import './FairShare.css';
 import Sidebar from '../../Sidebar';
-import { BentoGrid } from "../../Grid";
-import { BentoRow } from "../../Grid";
-import { BentoCell } from "../../Grid";
 
 
 function FairShare() {
     const [activeSection, setActiveSection] = useState(null);
 
-    const sections = [
+    const sections = useMemo(() => [
         { id: 'section1', title: '1. Project overview' },
         { id: 'section2', title: '2. Insider feed' },
         { id: 'section3', title: '3. Search stocks' },
@@ -18,7 +15,7 @@ function FairShare() {
         { id: 'section5', title: '5. Watchlist' },
         { id: 'section6', title: '6. Customize watchlist' },
         { id: 'section7', title: '7. Experience the app on the App Store' },
-    ];
+    ], [])
 
     useEffect(() => {
         const handleScroll = () => {
@@ -58,7 +55,7 @@ function FairShare() {
     return (
         <div className="project__container fair__share" >
             <div className="large__image__grid">
-                <img src='images/project images/FS/fs-0.png'></img>
+                <img src='images/project images/FS/fs-0.png' alt=""></img>
             </div>
 
             <div id="section1">
@@ -76,7 +73,7 @@ function FairShare() {
                 </div>
                 <div className="large__image__grid">
                     <p>The homepage features an insider activity feed where users can view the latest insider trades from S&P 500 companies. Users can tap any row to view detailed trade information.</p>
-                    <img loading="lazy" src='/images/Project images/FS/fs-1.png' className='large__image'></img>
+                    <img loading="lazy" src='/images/Project images/FS/fs-1.png' className='large__image' alt=""></img>
                 </div>
             </div>
 
@@ -86,7 +83,7 @@ function FairShare() {
                 </div>
                 <div className="large__image__grid">
                     <p>Users can search for any public company listed on US stock exchanges, making it easy to quickly find and explore insider trading activity for specific stocks they are interested in researching.</p>
-                    <img loading="lazy" src='/images/Project images/FS/fs-2.png' className='large__image'></img>
+                    <img loading="lazy" src='/images/Project images/FS/fs-2.png' className='large__image' alt=""></img>
                 </div>
             </div>
 
@@ -96,7 +93,7 @@ function FairShare() {
                 </div>
                 <div className="large__image__grid">
                     <p>Each stock page shows insider trading activity from the past 30 days, including charts and key stats that help users quickly understand buying and selling trends. Users can also tap any trade to see more details.</p>
-                    <img loading="lazy" src='/images/Project images/FS/fs-3.png' className='large__image'></img>
+                    <img loading="lazy" src='/images/Project images/FS/fs-3.png' className='large__image' alt=""></img>
                 </div>
             </div>
 
@@ -106,7 +103,7 @@ function FairShare() {
                 </div>
                 <div className="large__image__grid">
                     <p>The Watchlist page allows users to keep track of the stocks they want to follow most closely. From this page, users can easily tap on any stock to view detailed insider trading activity, charts, and key statistics.</p>
-                    <img loading="lazy" src='/images/Project images/FS/fs-4.png' className='large__image'></img>
+                    <img loading="lazy" src='/images/Project images/FS/fs-4.png' className='large__image' alt=""></img>
                 </div>
             </div>
 
@@ -116,7 +113,7 @@ function FairShare() {
                 </div>
                 <div className="large__image__grid">
                     <p>Users can fully customize their watchlist by rearranging the order of stocks or removing stocks they no longer want to track, creating a more personalized and organized experience.</p>
-                    <img loading="lazy" src='/images/Project images/FS/fs-5.png' className='large__image'></img>
+                    <img loading="lazy" src='/images/Project images/FS/fs-5.png' className='large__image' alt=""></img>
                 </div>
             </div>
 

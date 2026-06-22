@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import '../../../App.css';
 import './FreeMind.css';
 import Sidebar from '../../Sidebar';
-import { BentoGrid } from "../../Grid";
 import { BentoRow } from "../../Grid";
 import { BentoCell } from "../../Grid";
 
@@ -10,13 +9,13 @@ import { BentoCell } from "../../Grid";
 function FreeMind() {
     const [activeSection, setActiveSection] = useState(null);
 
-    const sections = [
+    const sections = useMemo(() => [
         { id: 'section1', title: '1. Project overview' },
         { id: 'section2', title: '2. Relax feature' },
         { id: 'section3', title: '3. Reflect feature' },
         { id: 'section4', title: '4. Other features' },
         { id: 'section5', title: '5. Experience the app on the App Store' },
-    ];
+    ], [])
 
     useEffect(() => {
         const handleScroll = () => {
@@ -56,7 +55,7 @@ function FreeMind() {
     return (
         <div className="project__container free__mind" >
             <div className="large__image__grid">
-                <img src='images/project images/FRM/FR-00.png'></img>
+                <img src='images/project images/FRM/FR-00.png' alt=""></img>
             </div>
 
             <div id="section1">
@@ -208,7 +207,7 @@ function FreeMind() {
                 <div className="large__image__grid">
                     <p>Users could download and experience the app on the Apple App store</p><a href="https://apps.apple.com/ca/app/freemind-relax-and-reflect/id6761868559" target="_blank" rel="noreferrer"><p>Apple App store link</p></a>
                     <div className="large__image__grid">
-                        <img src='images/project images/FRM/FR-98.png'></img>
+                        <img src='images/project images/FRM/FR-98.png' alt=""></img>
                     </div>
                 </div>
             </div>
