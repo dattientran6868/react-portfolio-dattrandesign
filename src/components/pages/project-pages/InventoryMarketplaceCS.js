@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import '../../../App.css';
 import './InventoryMarketplace.css';
 import Sidebar from '../../Sidebar';
@@ -7,14 +7,14 @@ import Sidebar from '../../Sidebar';
 function InventoryMarketplaceCS() {
     const [activeSection, setActiveSection] = useState(null);
 
-  const sections = [
+  const sections = useMemo(() => [
     { id: 'section1', title: '1. Project overview' },
     { id: 'section2', title: '2. Discovery & analysis' },
     { id: 'section3', title: '3. Ideation & concept development' },
     { id: 'section4', title: '4. User testing, gathering feedbacks & iterations' },
     { id: 'section5', title: '5. Final design' },
     { id: 'section6', title: '6. Outcome & impact' },
-  ];
+  ], [])
 
   useEffect(() => {
     const handleScroll = () => {
@@ -53,7 +53,7 @@ function InventoryMarketplaceCS() {
 	return (
 		<div className="project__container black__container first__party__audience" >
             <div>
-                <img src='images/project images/IM/IM-00.png'></img>
+                <img src='images/project images/IM/IM-00.png' alt=""></img>
             </div>
 		</div>
 	)

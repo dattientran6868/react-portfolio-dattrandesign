@@ -26,12 +26,6 @@ import AboutPage from './components/pages/AboutPage';
 
 
 
-function ProtectedRoute({ children }) {
-	const isAuthenticated = sessionStorage.getItem('auth') === 'true';
-
-	return isAuthenticated ? children : <Navigate to="/" replace />;
-}
-
 
 function AppContent() {
 	const location = useLocation();
