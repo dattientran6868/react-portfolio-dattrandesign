@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../../../App.css';
-import './AudienceRecommendation.css';
+import './ComponentLibrary.css';
 import Sidebar from '../../Sidebar';
 
 
@@ -52,10 +52,10 @@ function ComponentLibrary() {
 
 
     return (
-        <div className="project__container audience__recommendation" >
-            {/* <div>
-                <img src='images/project-images/AR/AR-00.png' className='large__image'></img>
-            </div> */}
+        <div className="project__container component__library" >
+            <div>
+                <img src='images/project-images/DS/DS-00.png' className='large__image'></img>
+            </div>
 
             <div id="section1">
                 <div className='section__name'>

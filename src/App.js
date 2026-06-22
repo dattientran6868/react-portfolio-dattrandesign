@@ -35,17 +35,13 @@ function ProtectedRoute({ children }) {
 
 function AppContent() {
 	const location = useLocation();
-	const hideNavbar = location.pathname === '/';
+	// const hideNavbar = location.pathname === '/';
 	return (
 		<>
-			{!hideNavbar && <Navbar />}
+			<Navbar />
 			<Routes>
-				<Route path='/' element={<Unknown />} />
-				<Route path='/portfolio0' element={<Home />} />
-				<Route path='/portfolio/about0' element={<About />} />
-				<Route path='/portfolio/projects' element={<Projects />} />
-				<Route path='/portfolio' element={<HomePage />} />
-				<Route path='/portfolio/about' element={<AboutPage />} />
+				<Route path='/' element={<HomePage />} />
+				<Route path='/about' element={<AboutPage />} />
 				{/* <Route path='/1368' element={ <ProtectedRoute> <Home /> </ProtectedRoute>} /> */}
 				<Route path='/fcbknstgrmntgrtn' element={<FI />} />
 				<Route path='/frstprtdncnbrdng' element={<FirstPartyAudience />} />
@@ -53,7 +49,7 @@ function AppContent() {
 				<Route path='/nvntrmrktplc' element={<InventoryMarketplace />} />
 				<Route path='/dncrcmmndtn' element={<AudienceRecommendation />} />
 				<Route path='/spprtcntr' element={<SupportCenter />} />
-				<Route path='/1' element={<ComponentLibrary />} />
+				<Route path='/dsgnsstm' element={<ComponentLibrary />} />
 				<Route path='/prdctpg' element={<ProductPage />} />
 				<Route path='/frmnd' element={<FreeMind />} />
 				<Route path='/dnmcgrdnt' element={<DynamicGradient />} />

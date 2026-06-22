@@ -173,6 +173,7 @@ export default function HomePage() {
             </div>
           </BentoCell>
         </BentoRow>
+
         <BentoRow type="thirds">
           <BentoCell
             hoverable
@@ -194,23 +195,40 @@ export default function HomePage() {
             </div>
           </BentoCell>
         </BentoRow>
-        <BentoRow type="halves">
 
+        {/* Row 5 – Type 1: two equal halves */}
+        <BentoRow type="halves">
           <BentoCell
             hoverable
             label="Support center"
             href="/spprtcntr">
             <img src='/images/home-images/i-sc.webp' loading="lazy" alt='' />
           </BentoCell>
+          <BentoCell
+            hoverable
+            label="Design system"
+            href="/dsgnsstm">
+            <img src='/images/home-images/i-ds.png' loading="lazy" alt='' />
+          </BentoCell>
+        </BentoRow>
 
+        {/* <BentoRow type="halves">
           <BentoCell
             hoverable
             label="First-party audience onboarding"
             href="/frstprtdncnbrdng">
             <img src='/images/home-images/i-fpa.webp' loading="lazy" alt='' />
           </BentoCell>
-
-        </BentoRow>
+          <BentoCell
+            hoverable
+            label="Dynamic gradient studio"
+            href="/dnmcgrdnt"
+          >
+            <div className="square-video-full-height">
+              <video playsInline autoPlay loop muted src="/images/home-images/dg-1.webm" />
+            </div>
+          </BentoCell>
+        </BentoRow> */}
 
         <BentoRow type="thirds">
           <BentoCell span={2}
