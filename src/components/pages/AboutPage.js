@@ -18,7 +18,7 @@ export default function AboutPage() {
                         </div>
                     </BentoCell>
                     <BentoCell span={1}>
-                        <img src='/images/home images/avatar.webp' alt='' />
+                        <img src='/images/home-images/avatar.webp' alt='' />
                     </BentoCell>
                 </BentoRow>
 
@@ -28,7 +28,7 @@ export default function AboutPage() {
 
                     <BentoCell span={1}>
                         <div className="contact-content">
-                            <img src='/images/home images/contact-text.webp' loading="lazy" alt='' />
+                            <img src='/images/home-images/contact-text.webp' loading="lazy" alt='' />
                         </div>
                     </BentoCell>
 
@@ -39,7 +39,7 @@ export default function AboutPage() {
                         onView={() => window.open('https://www.linkedin.com/in/dattran6868/', '_blank')}
                     >
                         <div className="contact-content">
-                            <img src='/images/home images/linkedin.webp' loading="lazy" alt='' />
+                            <img src='/images/home-images/linkedin.webp' loading="lazy" alt='' />
                             <p>LinkedIn</p>
                         </div>
                     </BentoCell>
@@ -51,7 +51,7 @@ export default function AboutPage() {
                         onView={() => navigator.clipboard.writeText('dattientran6868@gmail.com')}
                     >
                         <div className="contact-content">
-                            <img src='/images/home images/mail.webp' loading="lazy" alt='' />
+                            <img src='/images/home-images/mail.webp' loading="lazy" alt='' />
                             <p>dattientran6868@gmail.com</p>
                         </div>
                     </BentoCell>

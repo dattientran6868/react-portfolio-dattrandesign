@@ -53,7 +53,7 @@ function InventoryMarketplaceCS() {
 	return (
 		<div className="project__container black__container first__party__audience" >
             <div>
-                <img src='images/project images/IM/IM-00.png'></img>
+                <img src='images/project-images/IM/IM-00.png'></img>
             </div>
 		</div>
 	)

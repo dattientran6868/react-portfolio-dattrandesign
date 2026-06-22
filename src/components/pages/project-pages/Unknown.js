@@ -27,7 +27,7 @@ function Unknown() {
   return (
     <div className="white-page">
       <div>
-        <video playsInline autoPlay loop muted src="/images/home images/lock.webm" />
+        <video playsInline autoPlay loop muted src="/images/home-images/lock.webm" />
         <p>Please enter the password to access this page.</p>
         <form
           onSubmit={handleSubmit}

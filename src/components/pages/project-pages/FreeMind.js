@@ -56,7 +56,7 @@ function FreeMind() {
     return (
         <div className="project__container free__mind" >
             <div className="large__image__grid">
-                <img src='images/project images/FRM/FR-00.png'></img>
+                <img src='images/project-images/FRM/FR-00.png'></img>
             </div>
 
             <div id="section1">
@@ -208,7 +208,7 @@ function FreeMind() {
                 <div className="large__image__grid">
                     <p>Users could download and experience the app on the Apple App store</p><a href="https://apps.apple.com/ca/app/freemind-relax-and-reflect/id6761868559" target="_blank" rel="noreferrer"><p>Apple App store link</p></a>
                     <div className="large__image__grid">
-                        <img src='images/project images/FRM/FR-98.png'></img>
+                        <img src='images/project-images/FRM/FR-98.png'></img>
                     </div>
                 </div>
             </div>

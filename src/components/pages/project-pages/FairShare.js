@@ -58,7 +58,7 @@ function FairShare() {
     return (
         <div className="project__container fair__share" >
             <div className="large__image__grid">
-                <img src='images/project images/FS/fs-0.png'></img>
+                <img src='images/project-images/FS/fs-0.png'></img>
             </div>
 
             <div id="section1">

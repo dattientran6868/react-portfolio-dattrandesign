@@ -57,7 +57,7 @@ function DynamicGradient() {
     return (
         <div className="project__container dynamic__gradient" >
             <div className="large__image__grid">
-                <img src='images/project images/DG/DG-0.png'></img>
+                <img src='images/project-images/DG/DG-0.png'></img>
             </div>
 
             <div id="section1">
@@ -78,7 +78,7 @@ function DynamicGradient() {
                     <BentoRow type="full">
                         <BentoCell backgroundColor="#000000">
                             <div className="square-video-full-height">
-                                <video playsInline autoPlay loop muted src="/images/project images/DG/dg-2.webm" />
+                                <video playsInline autoPlay loop muted src="/images/project-images/DG/dg-2.webm" />
                             </div>
                         </BentoCell>
                     </BentoRow>
@@ -94,7 +94,7 @@ function DynamicGradient() {
                     <BentoRow type="full">
                         <BentoCell backgroundColor="#000000">
                             <div className="square-video-full-height">
-                                <video playsInline autoPlay loop muted src="/images/project images/DG/dg-3.webm" />
+                                <video playsInline autoPlay loop muted src="/images/project-images/DG/dg-3.webm" />
                             </div>
                         </BentoCell>
                     </BentoRow>
@@ -110,7 +110,7 @@ function DynamicGradient() {
                     <BentoRow type="full">
                         <BentoCell backgroundColor="#000000">
                             <div className="square-video-full-height">
-                                <video playsInline autoPlay loop muted src="/images/project images/DG/dg-4.webm" />
+                                <video playsInline autoPlay loop muted src="/images/project-images/DG/dg-4.webm" />
                             </div>
                         </BentoCell>
                     </BentoRow>

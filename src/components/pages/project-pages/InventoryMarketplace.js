@@ -54,7 +54,7 @@ function InventoryMarketplace() {
   return (
     <div className="project__container inventory__marketplace" >
       <div>
-        <img src='images/project images/IM/IM-00.png' className='large__image'></img>
+        <img src='images/project-images/IM/IM-00.png' className='large__image'></img>
       </div>
 
       <div id="section1">
@@ -63,7 +63,7 @@ function InventoryMarketplace() {
         </div>
         <h3>Context</h3>
         <p>Before this project, the experience of browsing and selecting deals was poor. Users had to search through a small modal with limited filters and not enough information to make informed decisions.</p>
-        <img loading="lazy" src='images/project images/IM/IM-A02.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/IM/IM-A02.png' className='large__image'></img>
         <h3>Project objective</h3>
         <p>The objective of this project was designing an inventory marketplace where users could easily browse deals, view details, and add them to a journey to run their ad campaigns.</p>
         <h3>Project duration</h3>
@@ -78,11 +78,11 @@ function InventoryMarketplace() {
         </div>
         <h3>Competitve analysis</h3>
         <p> I start the phase by collaborating with the Product Manager and User Researcher to analyze the inventory marketplace of competing platforms, identifying key strengths and uncovering opportunities for improvement to inform our design strategy. </p>
-        <img loading="lazy" src='images/project images/IM/IM-B01.png' className='large__image'></img>
-        <img loading="lazy" src='images/project images/IM/IM-B02.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/IM/IM-B01.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/IM/IM-B02.png' className='large__image'></img>
         <h3>User Story Mapping</h3>
         <p>Then I partnered with the Product Manager and User Researcher to conduct in-depth interviews with diverse user types, gaining a deep understanding of their needs, pain points, and behaviors to inform feature design.</p>
-        <img loading="lazy" src='images/project images/IM/IM-B03.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/IM/IM-B03.png' className='large__image'></img>
       </div>
 
       <div id="section3">
@@ -92,22 +92,22 @@ function InventoryMarketplace() {
         <p className='space'>A</p>
         <h3>User flow</h3>
         <p>Initiated this phase by creating user flows based on insights from competitive analysis and user story mapping</p>
-        <img loading="lazy" src='images/project images/IM/IM-C01.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/IM/IM-C01.png' className='large__image'></img>
         <h3>Sketching idea</h3>
         <h4>Concept 1: No navigation bar</h4>
-        <img loading="lazy" src='images/project images/IM/IM-C02.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/IM/IM-C02.png' className='large__image'></img>
         <h4>Concept 2: Left-side navigation bar</h4>
-        <img loading="lazy" src='images/project images/IM/IM-C03.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/IM/IM-C03.png' className='large__image'></img>
         <h3>Lo-fi wireframes</h3>
         <h4>Concept 1: No navigation bar</h4>
-        <img loading="lazy" src='images/project images/IM/IM-C04.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/IM/IM-C04.png' className='large__image'></img>
         <h4>Concept 2: Left-side navigation bar</h4>
-        <img loading="lazy" src='images/project images/IM/IM-C05.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/IM/IM-C05.png' className='large__image'></img>
         <h3>Hi-fi wireframes</h3>
         <h4>Concept 1: No navigation bar</h4>
-        <img loading="lazy" src='images/project images/IM/IM-C06.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/IM/IM-C06.png' className='large__image'></img>
         <h4>Concept 2: Left-side navigation bar</h4>
-        <img loading="lazy" src='images/project images/IM/IM-C07.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/IM/IM-C07.png' className='large__image'></img>
       </div>
 
       <div id="section4">
@@ -116,7 +116,7 @@ function InventoryMarketplace() {
         </div>
         <p className='space'>A</p>
         <p>To gather feedback on the 1st iteration, the designs were shared with company stakeholders and users.</p>
-        <img loading="lazy" src='images/project images/IM/IM-D00.png' className='medium__image'></img>
+        <img loading="lazy" src='images/project-images/IM/IM-D00.png' className='medium__image'></img>
         <p>Key feedback from the testing sessions:</p>
         <ul>
           <li>Stakeholders found Concept 1 (no navigation bar) more suitable, as the inventory marketplace wasn't complex enough to require a dedicated navigation bar.</li>
@@ -128,11 +128,11 @@ function InventoryMarketplace() {
         </ul>
         <h3>The 2nd Iteration</h3>
         <p>I designed different widgets to cover all the ways deals could be grouped on the homepage.</p>
-        <img loading="lazy" src='images/project images/IM/IM-D01.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/IM/IM-D01.png' className='large__image'></img>
         <p>I made UI updates based on feedback from the product team and other stakeholders.</p>
-        <img loading="lazy" src='images/project images/IM/IM-D02.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/IM/IM-D02.png' className='large__image'></img>
         <p>I also updated the empty state of the right column to make it more user-friendly and visually appealing.</p>
-        <img loading="lazy" src='images/project images/IM/IM-D03.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/IM/IM-D03.png' className='large__image'></img>
         <p>At the end of the 2nd iteration, we shared the design with users and company stakeholders to gather feedback. Key feedback:</p>
         <ul>
           <li>Users wanted to see the expected bid price range, since bids are often higher than the floor price in real situations.</li>
@@ -140,20 +140,20 @@ function InventoryMarketplace() {
         </ul>
         <h3>The 3rd Iteration</h3>
         <p>Based on feedback from user testing sessions, I added an 'Expected Bid Price' section to the right column so users could see the typical price range for their selected deals.</p>
-        <img loading="lazy" src='images/project images/IM/IM-D04.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/IM/IM-D04.png' className='large__image'></img>
         <p>The publisher's logo was important for building user trust, so I added it to the deal detail drawer.</p>
-        <img loading="lazy" src='images/project images/IM/IM-D05.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/IM/IM-D05.png' className='large__image'></img>
         <h3>Action drawer</h3>
         <p>In earlier iterations, we decided that after selecting deals, users could either add them to a journey or save them to My Deals using a side drawer. Once the main flow and design were mostly finalized, I focused on designing the form fields users needed to fill out to complete their tasks.</p>
         <h4>User flows in Action drawer</h4>
-        <img loading="lazy" src='images/project images/IM/IM-Action-flow.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/IM/IM-Action-flow.png' className='large__image'></img>
         <h4>Add deals to My deals</h4>
         <p>Users could save deals to "My Deals" so they could easily find and use them later without searching again.</p>
-        <img loading="lazy" src='images/project images/IM/IM-D06.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/IM/IM-D06.png' className='large__image'></img>
         <h4>Add deals to a journey</h4>
         <p>Users could add deals to a new or existing journey to run their advertising campaign.</p>
-        <img loading="lazy" src='images/project images/IM/IM-D07.png' className='large__image'></img>
-        <img loading="lazy" src='images/project images/IM/IM-D08.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/IM/IM-D07.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/IM/IM-D08.png' className='large__image'></img>
         <p>To gather feedback on the 3rd iteration, we shared the designs with users and company stakeholders. Key feedback:</p>
         <ul>
           <li>The flows in the action drawer were clear and helped guide users step by step to complete their tasks.</li>
@@ -161,11 +161,11 @@ function InventoryMarketplace() {
         </ul>
         <h3>The 4th Iteration</h3>
         <p>The updated drawer provided more working space, allowing users to add multiple tactics without needing to scroll too much.</p>
-        <img loading="lazy" src='images/project images/IM/IM-D09.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/IM/IM-D09.png' className='large__image'></img>
         <p>I added an animation to the deal detail drawer so that the publisher's logo and deal name always stayed visible.</p>
-        <img loading="lazy" src='images/project images/IM/IM-D10.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/IM/IM-D10.png' className='large__image'></img>
         <p>I explored different types of graphs to present cost guidance in a clear and useful way.</p>
-        <img loading="lazy" src='images/project images/IM/IM-D11.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/IM/IM-D11.png' className='large__image'></img>
         <p>To gather feedback on the 4th iteration, we shared the designs with users and company stakeholders. </p>
         <ul>
           <li>Testers preferred Concept 2 for the cost guidance, as it displayed the highest, lowest, and average prices needed to win the deal based on the past seven days of data.</li>
@@ -174,9 +174,9 @@ function InventoryMarketplace() {
         <h3>The 5th Iteration</h3>
         <p>In this iteration, I focused on Concept 2 of the cost guidance chart. Rather than showing static data, I introduced the idea for users to input values such as win rate or custom CPM and see the impact. Other than that, we used AI to predict the price for the next 7 days instead of relying on the past data.</p>
         <h4>AI-powered cost guidance with win rate</h4>
-        <img loading="lazy" src='images/project images/IM/IM-D12.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/IM/IM-D12.png' className='large__image'></img>
         <h4>AI-powered cost guidance with custom CPM</h4>
-        <img loading="lazy" src='images/project images/IM/IM-D13.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/IM/IM-D13.png' className='large__image'></img>
       </div>
 
       <div id="section5">
@@ -185,9 +185,9 @@ function InventoryMarketplace() {
         </div>
         <p className='space'>A</p>
         <h3>Inventory marketplace page</h3>
-        <img loading="lazy" src='images/project images/IM/IM-E01.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/IM/IM-E01.png' className='large__image'></img>
         <h3>Inventory marketplace in the Campaign setup drawer</h3>
-        <img loading="lazy" src='images/project images/IM/IM-E02.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/IM/IM-E02.png' className='large__image'></img>
         <h3>Interactive prototype</h3>
         <p>Please select 'Fit width and height' for the best experience.</p>
         <a href="https://www.figma.com/proto/TDium992Hrmi8B5y0xqk4o/IM?node-id=1-265877&viewport=17%2C-21%2C0.09&t=vRvJiiqOgo9N2Njn-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A265877&page-id=1%3A262925" target="_blank" rel="noreferrer"><p>Figma link</p></a>

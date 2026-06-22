@@ -43,7 +43,7 @@ export default function HomePage() {
           <BentoCell>
             <div className="hero-cell">
               <video
-                playsInline autoPlay loop muted src="/images/home images/gradient3.webm"
+                playsInline autoPlay loop muted src="/images/home-images/gradient3.webm"
               />
               <div className="hero-content">
                 <h1>Hi, I'm Dat Tran,</h1>
@@ -60,7 +60,7 @@ export default function HomePage() {
             hoverable
             label="Inventory marketplace"
             href="/nvntrmrktplc">
-            <img src='/images/home images/i-im.webp' loading="lazy" alt='' />
+            <img src='/images/home-images/i-im.webp' loading="lazy" alt='' />
           </BentoCell>
         </BentoRow>
 
@@ -70,13 +70,13 @@ export default function HomePage() {
             hoverable
             label="Product selection page"
             href="/prdctpg">
-            <img src='/images/home images/c-pp.webp' loading="lazy" alt='' />
+            <img src='/images/home-images/c-pp.webp' loading="lazy" alt='' />
           </BentoCell>
           <BentoCell
             hoverable
             label="AI-powered Audience insights"
             href="/dncrcmmndtn">
-            <img src='/images/home images/i-ai.webp' loading="lazy" alt='' />
+            <img src='/images/home-images/i-ai.webp' loading="lazy" alt='' />
           </BentoCell>
         </BentoRow>
         {/* Row 3 – Type 1: two equal halves */}
@@ -88,14 +88,14 @@ export default function HomePage() {
             hoverable
             label="Facebook & Instagram integration"
             href="/fcbknstgrmntgrtn">
-            <img src='/images/home images/i-fi.webp' loading="lazy" alt='' />
+            <img src='/images/home-images/i-fi.webp' loading="lazy" alt='' />
           </BentoCell>
 
           <BentoCell
             hoverable
             label="Footfall measurement"
             href="/ftfllmsrmnt">
-            <img src='/images/home images/i-fm.webp' loading="lazy" alt='' />
+            <img src='/images/home-images/i-fm.webp' loading="lazy" alt='' />
           </BentoCell>
 
         </BentoRow>
@@ -110,7 +110,7 @@ export default function HomePage() {
             hoverable
             label="3D personal logo">
             <div className="square-video-full-height" onClick={() => setlogoModalOpen(true)} style={{ cursor: "pointer" }}>
-              <video ref={logoVideoRef} playsInline autoPlay loop muted data-src="/images/home images/d-lg8.webm" />
+              <video ref={logoVideoRef} playsInline autoPlay loop muted data-src="/images/home-images/d-lg8.webm" />
             </div>
           </BentoCell>
 
@@ -118,7 +118,7 @@ export default function HomePage() {
             hoverable
             label="Preview gradient styles">
             <div className="square-video" onClick={() => setpreviewGradientModalOpen(true)} style={{ cursor: "pointer" }}>
-              <video playsInline autoPlay loop muted src="/images/home images/g-6.webm" />
+              <video playsInline autoPlay loop muted src="/images/home-images/g-6.webm" />
             </div>
           </BentoCell>
 
@@ -126,7 +126,7 @@ export default function HomePage() {
             hoverable
             label="AI-powered Cost guidance tool">
             <div className="square-video" onClick={() => setChartModalOpen(true)} style={{ cursor: "pointer" }}>
-              <video ref={chartVideoRef} playsInline autoPlay loop muted data-src="/images/home images/i-im-c.webm" />
+              <video ref={chartVideoRef} playsInline autoPlay loop muted data-src="/images/home-images/i-im-c.webm" />
             </div>
           </BentoCell>
 
@@ -144,7 +144,7 @@ export default function HomePage() {
             href="/dnmcgrdnt"
           >
             <div className="square-video-full-height">
-              <video playsInline autoPlay loop muted src="/images/home images/dg-1.webm" />
+              <video playsInline autoPlay loop muted src="/images/home-images/dg-1.webm" />
             </div>
           </BentoCell> */}
 
@@ -153,7 +153,7 @@ export default function HomePage() {
             hoverable
             label="Fairshare: Insider Trading App"
             href="/frshr">
-            <img src='/images/home images/s.png' loading="lazy" alt='' />
+            <img src='/images/home-images/s.png' loading="lazy" alt='' />
           </BentoCell>
 
 
@@ -167,8 +167,8 @@ export default function HomePage() {
           >
             <div style={{ cursor: "pointer", width: "100%", height: "100%" }}>
               <ReactCompareImage
-                leftImage="/images/home images/f-dm2.png"
-                rightImage="/images/home images/f-lm2.png"
+                leftImage="/images/home-images/f-dm2.png"
+                rightImage="/images/home-images/f-lm2.png"
               />
             </div>
           </BentoCell>
@@ -180,7 +180,7 @@ export default function HomePage() {
             onClick={() => setfreeMindModalOpen(true)}
             style={{ cursor: "pointer" }}>
             <div className="square-video-full-height" >
-              <video ref={breathingVideoRef} playsInline autoPlay loop muted data-src="/images/home images/f-br2.webm" />
+              <video ref={breathingVideoRef} playsInline autoPlay loop muted data-src="/images/home-images/f-br2.webm" />
             </div>
           </BentoCell>
 
@@ -190,7 +190,7 @@ export default function HomePage() {
             onClick={() => setwaveGradientModalOpen(true)}
             style={{ cursor: "pointer" }}>
             <div className="square-video-full-width" >
-              <video ref={waveGradientVideoRef} playsInline autoPlay loop muted data-src="/images/home images/g-4.webm" />
+              <video ref={waveGradientVideoRef} playsInline autoPlay loop muted data-src="/images/home-images/g-4.webm" />
             </div>
           </BentoCell>
         </BentoRow>
@@ -200,14 +200,14 @@ export default function HomePage() {
             hoverable
             label="Support center"
             href="/spprtcntr">
-            <img src='/images/home images/i-sc.webp' loading="lazy" alt='' />
+            <img src='/images/home-images/i-sc.webp' loading="lazy" alt='' />
           </BentoCell>
 
           <BentoCell
             hoverable
             label="First-party audience onboarding"
             href="/frstprtdncnbrdng">
-            <img src='/images/home images/i-fpa.webp' loading="lazy" alt='' />
+            <img src='/images/home-images/i-fpa.webp' loading="lazy" alt='' />
           </BentoCell>
 
         </BentoRow>
@@ -219,7 +219,7 @@ export default function HomePage() {
             onClick={() => setmercuryGradientModalOpen(true)}
             style={{ cursor: "pointer" }}>
             <div className="square-video-full-width" >
-              <video ref={mercuryGradientVideoRef} playsInline autoPlay loop muted data-src="/images/home images/g-5.webm" />
+              <video ref={mercuryGradientVideoRef} playsInline autoPlay loop muted data-src="/images/home-images/g-5.webm" />
             </div>
           </BentoCell>
 
@@ -229,7 +229,7 @@ export default function HomePage() {
             onClick={() => setproductSelectionModalOpen(true)}
             style={{ cursor: "pointer" }}>
             <div className="square-video-full-height" >
-              <video ref={productSelectionVideoRef} playsInline autoPlay loop muted data-src="/images/home images/p-s3.webm" />
+              <video ref={productSelectionVideoRef} playsInline autoPlay loop muted data-src="/images/home-images/p-s3.webm" />
             </div>
           </BentoCell>
 
@@ -245,7 +245,7 @@ export default function HomePage() {
             onClick={() => setlogoFreemindModalOpen(true)}
             style={{ cursor: "pointer" }}>
             <div className="square-video-full-height">
-              <video ref={logoFreemindVideoRef} playsInline autoPlay loop muted data-src="/images/home images/f-lg3.webm" />
+              <video ref={logoFreemindVideoRef} playsInline autoPlay loop muted data-src="/images/home-images/f-lg3.webm" />
             </div>
           </BentoCell>
           <BentoCell span={1}
@@ -254,7 +254,7 @@ export default function HomePage() {
             onClick={() => setaudienceModalOpen(true)}
             style={{ cursor: "pointer" }}>
             <div className="square-video-full-height" >
-              <video ref={audienceVideoRef} playsInline autoPlay loop muted data-src="/images/home images/i-ai-panel.webm" />
+              <video ref={audienceVideoRef} playsInline autoPlay loop muted data-src="/images/home-images/i-ai-panel.webm" />
             </div>
           </BentoCell>
 
@@ -263,7 +263,7 @@ export default function HomePage() {
             label="Measurement card"
             onClick={() => setmeasurementCardModalOpen(true)}
             style={{ cursor: "pointer" }}>
-            <img src="images/home images/Illumin-footfall-card.png"></img>
+            <img src="images/home-images/Illumin-footfall-card.png"></img>
           </BentoCell>
         </BentoRow>
 
@@ -272,7 +272,7 @@ export default function HomePage() {
 
           <BentoCell span={1}>
             <div className="contact-content">
-              <img src='/images/home images/contact-text.webp' loading="lazy" alt='' />
+              <img src='/images/home-images/contact-text.webp' loading="lazy" alt='' />
             </div>
           </BentoCell>
 
@@ -283,7 +283,7 @@ export default function HomePage() {
             onView={() => window.open('https://www.linkedin.com/in/dattran6868/', '_blank')}
           >
             <div className="contact-content">
-              <img src='/images/home images/linkedin.webp' loading="lazy" alt='' />
+              <img src='/images/home-images/linkedin.webp' loading="lazy" alt='' />
               <p>LinkedIn</p>
             </div>
           </BentoCell>
@@ -295,7 +295,7 @@ export default function HomePage() {
             onView={() => navigator.clipboard.writeText('dattientran6868@gmail.com')}
           >
             <div className="contact-content">
-              <img src='/images/home images/mail.webp' loading="lazy" alt='' />
+              <img src='/images/home-images/mail.webp' loading="lazy" alt='' />
               <p>dattientran6868@gmail.com</p>
             </div>
           </BentoCell>
@@ -314,7 +314,7 @@ export default function HomePage() {
       >
         {productSelectionModalOpen && (
           <div>
-            <video playsInline autoPlay loop muted src="/images/home images/p-s3.webm" />
+            <video playsInline autoPlay loop muted src="/images/home-images/p-s3.webm" />
           </div>
         )}
         <p>Product cards in the tile view that I explored during the design process of the product selection page redesign.</p>
@@ -329,7 +329,7 @@ export default function HomePage() {
       >
         {freeMindModalOpen && (
           <div>
-            <video playsInline autoPlay loop muted src="/images/home images/f-br2.webm" />
+            <video playsInline autoPlay loop muted src="/images/home-images/f-br2.webm" />
           </div>
         )}
         <p>The box breathing exercise helped users relax in the FreeMind app.</p>
@@ -343,7 +343,7 @@ export default function HomePage() {
       >
         {logoModalOpen && (
           <div>
-            <video playsInline autoPlay loop muted src="/images/home images/d-lg8.webm" />
+            <video playsInline autoPlay loop muted src="/images/home-images/d-lg8.webm" />
           </div>
         )}
         <p>3D metallic version of my logo</p>
@@ -357,7 +357,7 @@ export default function HomePage() {
       >
         {logoFreemindModalOpen && (
           <div>
-            <video playsInline autoPlay loop muted src="/images/home images/f-lg3.webm" />
+            <video playsInline autoPlay loop muted src="/images/home-images/f-lg3.webm" />
           </div>
         )}
         <p>Freemind logo with a glassmorphism design.</p>
@@ -372,7 +372,7 @@ export default function HomePage() {
       >
         {chartModalOpen && (
           <div>
-            <video playsInline autoPlay loop muted src="/images/home images/i-im-c.webm" />
+            <video playsInline autoPlay loop muted src="/images/home-images/i-im-c.webm" />
           </div>
         )}
         <p>The cost guidance chart showed users how bid price affected win rate in the Inventory Marketplace.</p>
@@ -387,7 +387,7 @@ export default function HomePage() {
       >
         {audienceModalOpen && (
           <div>
-            <video className="square-video" playsInline autoPlay loop muted src="/images/home images/i-ai-panel.webm" />
+            <video className="square-video" playsInline autoPlay loop muted src="/images/home-images/i-ai-panel.webm" />
           </div>
         )}
         <p>The audience insights panel where users can view the potential reach of their tactic and easily add audiences to achieve that reach.</p>
@@ -401,7 +401,7 @@ export default function HomePage() {
       >
         {previewGradientModalOpen && (
           <div>
-            <video className="square-video" playsInline autoPlay loop muted src="/images/home images/g-6.webm" />
+            <video className="square-video" playsInline autoPlay loop muted src="/images/home-images/g-6.webm" />
           </div>
         )}
         <p>Hovering over the tab displays a preview of the gradient in the Dynamic gradient studio.</p>
@@ -416,7 +416,7 @@ export default function HomePage() {
       >
         {waveGradientModalOpen && (
           <div>
-            <video className="square-video" playsInline autoPlay loop muted src="/images/home images/g-4.webm" />
+            <video className="square-video" playsInline autoPlay loop muted src="/images/home-images/g-4.webm" />
           </div>
         )}
         <div className="text-in-modal">
@@ -433,7 +433,7 @@ export default function HomePage() {
       >
         {mercuryGradientModalOpen && (
           <div>
-            <video className="square-video" playsInline autoPlay loop muted src="/images/home images/g-5.webm" />
+            <video className="square-video" playsInline autoPlay loop muted src="/images/home-images/g-5.webm" />
           </div>
         )}
         <div className="text-in-modal">
@@ -450,7 +450,7 @@ export default function HomePage() {
       >
         {measurementCardModalOpen && (
           <div>
-            <img src="/images/home images/Illumin-footfall-card.png" />
+            <img src="/images/home-images/Illumin-footfall-card.png" />
           </div>
         )}
         <p>I designed the measurement card for the Measurement Marketplace, and it was later reused in the Footfall Measurement feature.
@@ -466,7 +466,7 @@ export default function HomePage() {
       >
         {stockAppModalOpen && (
           <div>
-            <img src="/images/home images/s2.png" />
+            <img src="/images/home-images/s2.png" />
           </div>
         )}
         <p>(Coming soon) I designed and developed an iOS app that helps retail investors track insider trading activity in public companies, making investment research more transparent and accessible.
