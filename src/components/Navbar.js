@@ -6,7 +6,7 @@ const projects = [
 	{ label: 'Product Selection Page', href: '/prdctpg', img: '/images/criteo-icon.svg' },
 	{ label: 'Inventory Marketplace', href: '/nvntrmrktplc', img: '/images/illumin-icon.svg' },
 	{ label: 'Facebook & Instagram Integration', href: '/fcbknstgrmntgrtn', img: '/images/illumin-icon.svg' },
-	{ label: 'AI-powered Audience Insights', href: '/dncrcmmndtn', img: '/images/illumin-icon.svg' },
+	{ label: 'AI-powered Insights', href: '/dncrcmmndtn', img: '/images/illumin-icon.svg' },
 	{ label: 'Footfall Measurement', href: '/ftfllmsrmnt', img: '/images/illumin-icon.svg' },
 	{ label: 'Support Center', href: '/spprtcntr', img: '/images/illumin-icon.svg' },
 	{ label: 'Design System', href: '/dsgnsstm', img: '/images/illumin-icon.svg' },
