@@ -96,11 +96,13 @@ function ComponentLibrary() {
                 <div className='section__name'>
                     <h2>4. DATA DISPLAY</h2>
                 </div>
-                <img loading="lazy" src='images/project-images/DS/DS-C01.png' className='large__image'></img>
-                <img loading="lazy" src='images/project-images/DS/DS-C02.png' className='large__image'></img>
-                <img loading="lazy" src='images/project-images/DS/DS-C03.png' className='large__image'></img>
-                <img loading="lazy" src='images/project-images/DS/DS-C04.png' className='large__image'></img>
-                <img loading="lazy" src='images/project-images/DS/DS-C05.png' className='large__image'></img>
+                <img loading="lazy" src='images/project images/DS/DS-C01.png' className='large__image'></img>
+                <img loading="lazy" src='images/project images/DS/DS-C02.png' className='large__image'></img>
+                <img loading="lazy" src='images/project images/DS/DS-C03.png' className='large__image'></img>
+                <img loading="lazy" src='images/project images/DS/DS-C04.png' className='large__image'></img>
+                <img loading="lazy" src='images/project images/DS/DS-C05.png' className='large__image'></img>
+                <img loading="lazy" src='images/project images/DS/DS-C06.png' className='large__image'></img>
+                <img loading="lazy" src='images/project images/DS/DS-C07.png' className='large__image'></img>
             </div>
 
             <div id="section5">
