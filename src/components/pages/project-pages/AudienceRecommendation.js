@@ -54,7 +54,7 @@ function AudienceRecommendation() {
   return (
     <div className="project__container audience__recommendation" >
       <div>
-        <img src='images/project images/AR/AR-00.png' className='large__image'></img>
+        <img src='images/project-images/AR/AR-00.png' className='large__image'></img>
       </div>
 
       <div id="section1">
@@ -75,11 +75,11 @@ function AudienceRecommendation() {
           <h2>2. DISCOVERY & ANALYSIS</h2>
         </div>
         <h3>How AI-powered audience insights work</h3>
-        <img loading="lazy" src='images/project images/AR/AR-B01.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/AR/AR-B01.png' className='large__image'></img>
         <h3>How AI-powered creative insights work</h3>
-        <img loading="lazy" src='images/project images/AR/AR-B02.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/AR/AR-B02.png' className='large__image'></img>
         <h3>UX/UI references</h3>
-        <img loading="lazy" src='images/project images/AR/AR-B03.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/AR/AR-B03.png' className='large__image'></img>
       </div>
 
       <div id="section3">
@@ -89,18 +89,18 @@ function AudienceRecommendation() {
         <p className='space'>A</p>
         <h3>User flow</h3>
         {/* <p>I started building this flow by creating a user flow.</p> */}
-        <img loading="lazy" src='images/project images/AR/AR-C01.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/AR/AR-C01.png' className='large__image'></img>
         <h3>Lo-fi wireframes</h3>
-        <img loading="lazy" src='images/project images/AR/AR-C02.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/AR/AR-C02.png' className='large__image'></img>
         <h4>Concept 1: The audience panel is located on the right side</h4>
-        <img loading="lazy" src='images/project images/AR/AR-C03.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/AR/AR-C03.png' className='large__image'></img>
         <h4>Concept 2: The audience panel is located in the middle</h4>
-        <img loading="lazy" src='images/project images/AR/AR-C04.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/AR/AR-C04.png' className='large__image'></img>
         <h3>Hi-fi wireframes</h3>
         <h4>Concept 1: The audience panel is located on the right side</h4>
-        <img loading="lazy" src='images/project images/AR/AR-C05.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/AR/AR-C05.png' className='large__image'></img>
         <h4>Concept 2: The audience panel is located in the middle</h4>
-        <img loading="lazy" src='images/project images/AR/AR-C06.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/AR/AR-C06.png' className='large__image'></img>
       </div>
 
       <div id="section4">
@@ -109,7 +109,7 @@ function AudienceRecommendation() {
         </div>
         <p className='space'>A</p>
         <p>To gather feedback on the 1st iteration, the designs were shared with company stakeholders and users.</p>
-        <img loading="lazy" src='images/project images/AR/AR-D00.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/AR/AR-D00.png' className='large__image'></img>
         <p>Key feedback from the testing sessions:</p>
         <ul>
           <li>Users preferred the panel on the right side because it took up less space. They also felt that the right column was an appropriate place for recommendations, while the middle area should remain focused on the main features. </li>
@@ -122,9 +122,9 @@ function AudienceRecommendation() {
           <li>The tactic table at the campaign level: This was where users could view all tactics within a specific campaign.</li>
         </ul>
         <h4>Discover new AI-powered audience insights in the canvas</h4>
-        <img loading="lazy" src='images/project images/AR/AR-D01.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/AR/AR-D01.png' className='large__image'></img>
         <h4>Discover new AI-powered audience insights at the campaign level</h4>
-        <img loading="lazy" src='images/project images/AR/AR-D02.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/AR/AR-D02.png' className='large__image'></img>
 
         <p>Key feedback from the testing sessions:</p>
         <ul>
@@ -134,9 +134,9 @@ function AudienceRecommendation() {
         <h3>The 3rd Iteration</h3>
         <p>In this iteration, I made improvements to the audience panel based on user feedback. I also designed a flow that allowed users to quickly see the impact of the added recommended audiences on campaign performance.</p>
         <h4>Add a visual indicator to the audience panel</h4>
-        <img loading="lazy" src='images/project images/AR/AR-D04.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/AR/AR-D04.png' className='large__image'></img>
         <h4>See how AI-powered recommended audiences impact campaign performance</h4>
-        <img loading="lazy" src='images/project images/AR/AR-D03.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/AR/AR-D03.png' className='large__image'></img>
       </div>
 
       <div id="section5">
@@ -146,16 +146,16 @@ function AudienceRecommendation() {
         <p className='space'>A</p>
         <h2>Audience insights</h2>
         <h3>Add recommended audiences to the audience list</h3>
-        <img loading="lazy" src='images/project images/AR/AR-E01.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/AR/AR-E01.png' className='large__image'></img>
         <h3>Discover new AI-powered audience insights in the canvas</h3>
-        <img loading="lazy" src='images/project images/AR/AR-E02.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/AR/AR-E02.png' className='large__image'></img>
         <h3>Discover new AI-powered audience insights at the campaign level</h3>
-        <img loading="lazy" src='images/project images/AR/AR-E03.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/AR/AR-E03.png' className='large__image'></img>
         <h3>See how AI-powered recommended audiences impact campaign performance</h3>
-        <img loading="lazy" src='images/project images/AR/AR-E04.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/AR/AR-E04.png' className='large__image'></img>
         <h2>Creative insights</h2>
         <p>I applied the same design pattern for Creative insights, ensuring consistent experience for users.</p>
-        <img loading="lazy" src='images/project images/AR/AR-E05.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/AR/AR-E05.png' className='large__image'></img>
 
       </div>
 
@@ -165,7 +165,7 @@ function AudienceRecommendation() {
         </div>
         <p className='space'>A</p>
         <p>As a result, advertisers identified the right audiences and creative sizes faster and with greater confidence. AI-powered insights cut down time spent searching through third-party segments, streamlining the targeting process and unlocking up to 48% more third-party reach, driving higher impressions and stronger overall campaign performance.</p>
-        <img loading="lazy" src='images/project images/AR/AR-F01.png' className='large__image'></img>
+        <img loading="lazy" src='images/project-images/AR/AR-F01.png' className='large__image'></img>
         {/* <img loading="lazy" src='images/illumin-logo.svg' className='logo'></img> */}
       </div>
       <div>
