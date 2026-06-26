@@ -206,7 +206,7 @@ export default function HomePage() {
           </BentoCell>
           <BentoCell
             hoverable
-            label="Design system"
+            label="Design System: Component Library"
             href="/dsgnsstm">
             <img src='/images/home-images/i-ds.png' loading="lazy" alt='' />
           </BentoCell>
