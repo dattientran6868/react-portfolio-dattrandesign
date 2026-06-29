@@ -186,7 +186,7 @@ function FirstPartyAudience() {
                 <h3>5.2 Update (Edit) flow </h3>
                 <img loading="lazy" src='images/project-images/FPA/FPA-E5.png' className='large__image'></img>
 
-                <h3>5.3 Post-Upload or Post-Update flow</h3>
+                <h3>5.3 Post-Upload and Post-Update flow</h3>
                 <h4>Case 1: If the user chose to generate Suggested audiences</h4>
                 <img loading="lazy" src='images/project-images/FPA/FPA-E2.png' className='large__image'></img>
                 <h4>Case 2: If the user didn't choose to generate Suggested audiences</h4>

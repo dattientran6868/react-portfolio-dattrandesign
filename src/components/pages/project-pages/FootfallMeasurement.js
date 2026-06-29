@@ -172,9 +172,9 @@ function FootfallMeasurement() {
                     <img loading="lazy" src='images/project-images/FM/FM-E04.png' className='large__image'></img>
                     <h4>Edge case: Users were notified if they hadn't completed the setup</h4>
                     <img loading="lazy" src='images/project-images/FM/FM-E05.png' className='large__image'></img>
-                    <h4>Interactive prototype</h4>
+                    {/* <h4>Interactive prototype</h4>
                     <p>Please select 'Fit width and height' for the best experience.</p>
-                    <a href="https://www.figma.com/proto/TLOedEQNzvR8tGp3n3U6ly/FF-Measurement?node-id=420-57102&t=dRkbbka9wgFMn8k0-1&scaling=min-zoom&content-scaling=fixed&page-id=1%3A6&starting-point-node-id=420%3A57102" target="_blank" rel="noreferrer"><p>Figma link</p></a>
+                    <a href="https://www.figma.com/proto/TLOedEQNzvR8tGp3n3U6ly/FF-Measurement?node-id=420-57102&t=dRkbbka9wgFMn8k0-1&scaling=min-zoom&content-scaling=fixed&page-id=1%3A6&starting-point-node-id=420%3A57102" target="_blank" rel="noreferrer"><p>Figma link</p></a> */}
                 </div>
             </div>
 
@@ -183,7 +183,7 @@ function FootfallMeasurement() {
                     <h2>6. OUTCOME & IMPACT</h2>
                 </div>
                 <p className='space'>A</p>
-                <p>With Adsquare’s footfall measurement, users gained a clear view into how their campaigns influenced real-world store visits, enabling smarter optimization of offline performance. From a business standpoint, the partnership carried a fixed monthly cost alongside a revenue-sharing component. Within just two months of launch, the feature moved beyond cost recovery and began contributing positively to overall monetization, quickly establishing itself as a commercially impactful addition.</p>
+                <p>With Adsquare's footfall measurement, users could see how their campaigns drove real-world store visits, helping them optimize offline campaign performance. The partnership included a fixed monthly cost and a revenue-sharing model. Within two months of launch, the feature covered its costs and started generating positive revenue, making it a valuable addition to the business.</p>
                 <img loading="lazy" src='images/illumin-logo.svg' className='logo'></img>
             </div>
             <div>

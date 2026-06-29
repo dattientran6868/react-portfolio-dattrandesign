@@ -261,7 +261,7 @@ function FI() {
                 {/* <img src='images/project-images/FI/FI-D9.png' className='large__image'></img> */}
                 <h3>Authorize (Connect illumin to Facebook) in licensee settings</h3>
                 <img src='images/project-images/FI/FI-D2.png' className='large__image'></img>
-                <h3>Authorize (Connect illumin to Facebook) in journey settings</h3>
+                <h3>Authorize (Connect illumin to Facebook) in journey canvas</h3>
                 <img src='images/project-images/FI/FI-D3.png' className='large__image'></img>
                 <h3>Configure Facebook & Instagram ads</h3>
                 <img src='images/project-images/FI/FI-D4.png' className='large__image'></img>
