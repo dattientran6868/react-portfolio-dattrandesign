@@ -125,10 +125,10 @@ function DynamicGradient() {
                 <div className="large__image__grid">
                     <BentoRow type="halves">
                         <BentoCell>
-                            <img src='/images/Project images/DG/dg-51.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/DG/dg-51.png' loading="lazy" alt='' />
                         </BentoCell>
                         <BentoCell>
-                            <img src='/images/Project images/DG/dg-52.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/DG/dg-52.png' loading="lazy" alt='' />
                         </BentoCell>
                     </BentoRow>
                 </div>
@@ -136,10 +136,10 @@ function DynamicGradient() {
                 <div className="large__image__grid">
                     <BentoRow type="halves">
                         <BentoCell>
-                            <img src='/images/Project images/DG/dg-53.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/DG/dg-53.png' loading="lazy" alt='' />
                         </BentoCell>
                         <BentoCell>
-                            <img src='/images/Project images/DG/dg-54.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/DG/dg-54.png' loading="lazy" alt='' />
                         </BentoCell>
                     </BentoRow>
                 </div>
@@ -147,10 +147,10 @@ function DynamicGradient() {
                 <div className="large__image__grid">
                     <BentoRow type="halves">
                         <BentoCell>
-                            <img src='/images/Project images/DG/dg-55.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/DG/dg-55.png' loading="lazy" alt='' />
                         </BentoCell>
                         <BentoCell>
-                            <img src='/images/Project images/DG/dg-56.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/DG/dg-56.png' loading="lazy" alt='' />
                         </BentoCell>
                     </BentoRow>
                 </div>
