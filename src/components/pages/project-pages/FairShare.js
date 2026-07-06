@@ -76,7 +76,7 @@ function FairShare() {
                 </div>
                 <div className="large__image__grid">
                     <p>The homepage features an insider activity feed where users can view the latest insider trades from S&P 500 companies. Users can tap any row to view detailed trade information.</p>
-                    <img loading="lazy" src='/images/Project images/FS/fs-1.png' className='large__image'></img>
+                    <img loading="lazy" src='/images/project-images/FS/fs-1.png' className='large__image'></img>
                 </div>
             </div>
 
@@ -86,7 +86,7 @@ function FairShare() {
                 </div>
                 <div className="large__image__grid">
                     <p>Users can search for any public company listed on US stock exchanges, making it easy to quickly find and explore insider trading activity for specific stocks they are interested in researching.</p>
-                    <img loading="lazy" src='/images/Project images/FS/fs-2.png' className='large__image'></img>
+                    <img loading="lazy" src='/images/project-images/FS/fs-2.png' className='large__image'></img>
                 </div>
             </div>
 
@@ -96,7 +96,7 @@ function FairShare() {
                 </div>
                 <div className="large__image__grid">
                     <p>Each stock page shows insider trading activity from the past 30 days, including charts and key stats that help users quickly understand buying and selling trends. Users can also tap any trade to see more details.</p>
-                    <img loading="lazy" src='/images/Project images/FS/fs-3.png' className='large__image'></img>
+                    <img loading="lazy" src='/images/project-images/FS/fs-3.png' className='large__image'></img>
                 </div>
             </div>
 
@@ -106,7 +106,7 @@ function FairShare() {
                 </div>
                 <div className="large__image__grid">
                     <p>The Watchlist page allows users to keep track of the stocks they want to follow most closely. From this page, users can easily tap on any stock to view detailed insider trading activity, charts, and key statistics.</p>
-                    <img loading="lazy" src='/images/Project images/FS/fs-4.png' className='large__image'></img>
+                    <img loading="lazy" src='/images/project-images/FS/fs-4.png' className='large__image'></img>
                 </div>
             </div>
 
@@ -116,7 +116,7 @@ function FairShare() {
                 </div>
                 <div className="large__image__grid">
                     <p>Users can fully customize their watchlist by rearranging the order of stocks or removing stocks they no longer want to track, creating a more personalized and organized experience.</p>
-                    <img loading="lazy" src='/images/Project images/FS/fs-5.png' className='large__image'></img>
+                    <img loading="lazy" src='/images/project-images/FS/fs-5.png' className='large__image'></img>
                 </div>
             </div>
 

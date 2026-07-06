@@ -76,37 +76,37 @@ function FreeMind() {
                     <p>The home screen was the Relax page, designed to help users quickly choose a way to unwind.</p>
                     <BentoRow type="halves">
                         <BentoCell>
-                            <img src='/images/Project images/FRM/f-lm-home.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-lm-home.png' loading="lazy" alt='' />
                         </BentoCell>
                         <BentoCell>
-                            <img src='/images/Project images/FRM/f-dm-home.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-dm-home.png' loading="lazy" alt='' />
                         </BentoCell>
                     </BentoRow>
                     <p>Users could choose session duration, background sounds, or guided voice for breathing exercises.</p>
                     <BentoRow type="halves">
                         <BentoCell>
-                            <img src='/images/Project images/FRM/f-lm-breathing.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-lm-breathing.png' loading="lazy" alt='' />
                         </BentoCell>
                         <BentoCell>
-                            <img src='/images/Project images/FRM/f-dm-breathing.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-dm-breathing.png' loading="lazy" alt='' />
                         </BentoCell>
                     </BentoRow>
                     <p>A variety of natural ambient sounds helped users relax and unwind.</p>
                     <BentoRow type="halves">
                         <BentoCell>
-                            <img src='/images/Project images/FRM/f-lm-listen.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-lm-listen.png' loading="lazy" alt='' />
                         </BentoCell>
                         <BentoCell>
-                            <img src='/images/Project images/FRM/f-dm-listen.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-dm-listen.png' loading="lazy" alt='' />
                         </BentoCell>
                     </BentoRow>
                     <p>The timer feature allowed users to set a duration for sound playback. The sound gradually faded out and stopped when the time ran out.</p>
                     <BentoRow type="halves">
                         <BentoCell>
-                            <img src='/images/Project images/FRM/f-lm-timer.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-lm-timer.png' loading="lazy" alt='' />
                         </BentoCell>
                         <BentoCell>
-                            <img src='/images/Project images/FRM/f-dm-timer.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-dm-timer.png' loading="lazy" alt='' />
                         </BentoCell>
                     </BentoRow>
 
@@ -121,37 +121,37 @@ function FreeMind() {
                     <p>The Reflect view was a calendar-based interface that allowed users to easily navigate to any day to create or edit a reflection.</p>
                     <BentoRow type="halves">
                         <BentoCell>
-                            <img src='/images/Project images/FRM/f-lm-reflect.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-lm-reflect.png' loading="lazy" alt='' />
                         </BentoCell>
                         <BentoCell>
-                            <img src='/images/Project images/FRM/f-dm-reflect.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-dm-reflect.png' loading="lazy" alt='' />
                         </BentoCell>
                     </BentoRow>
                     <p>Users could add images to their reflections.</p>
                     <BentoRow type="halves">
                         <BentoCell>
-                            <img src='/images/Project images/FRM/f-lm-reflect-image.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-lm-reflect-image.png' loading="lazy" alt='' />
                         </BentoCell>
                         <BentoCell>
-                            <img src='/images/Project images/FRM/f-dm-reflect-image.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-dm-reflect-image.png' loading="lazy" alt='' />
                         </BentoCell>
                     </BentoRow>
                     <p>Users could use emojis to express how their day felt.</p>
                     <BentoRow type="halves">
                         <BentoCell>
-                            <img src='/images/Project images/FRM/f-lm-reflectemoji.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-lm-reflectemoji.png' loading="lazy" alt='' />
                         </BentoCell>
                         <BentoCell>
-                            <img src='/images/Project images/FRM/f-dm-reflectemoji.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-dm-reflectemoji.png' loading="lazy" alt='' />
                         </BentoCell>
                     </BentoRow>
                     <p>Over 200 emojis were available for users to choose from.</p>
                     <BentoRow type="halves">
                         <BentoCell>
-                            <img src='/images/Project images/FRM/f-lm-emoji-picker.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-lm-emoji-picker.png' loading="lazy" alt='' />
                         </BentoCell>
                         <BentoCell>
-                            <img src='/images/Project images/FRM/f-dm-emoji-picker.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-dm-emoji-picker.png' loading="lazy" alt='' />
                         </BentoCell>
                     </BentoRow>
                 </div>
@@ -165,37 +165,37 @@ function FreeMind() {
                     <p>A global playback bar at the bottom of the screen allowed users to control audio while using other features.</p>
                     <BentoRow type="halves">
                         <BentoCell>
-                            <img src='/images/Project images/FRM/f-lm-globalbar.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-lm-globalbar.png' loading="lazy" alt='' />
                         </BentoCell>
                         <BentoCell>
-                            <img src='/images/Project images/FRM/f-dm-globalbar.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-dm-globalbar.png' loading="lazy" alt='' />
                         </BentoCell>
                     </BentoRow>
                     <p>The app included a range of settings to enhance user experience and accessibility.</p>
                     <BentoRow type="halves">
                         <BentoCell>
-                            <img src='/images/Project images/FRM/f-lm-menu.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-lm-menu.png' loading="lazy" alt='' />
                         </BentoCell>
                         <BentoCell>
-                            <img src='/images/Project images/FRM/f-dm-menu.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-dm-menu.png' loading="lazy" alt='' />
                         </BentoCell>
                     </BentoRow>
                     <p>Users could set daily reminders to relax and reflect on their day.</p>
                     <BentoRow type="halves">
                         <BentoCell>
-                            <img src='/images/Project images/FRM/f-lm-reminder.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-lm-reminder.png' loading="lazy" alt='' />
                         </BentoCell>
                         <BentoCell>
-                            <img src='/images/Project images/FRM/f-dm-reminder.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-dm-reminder.png' loading="lazy" alt='' />
                         </BentoCell>
                     </BentoRow>
                     <p>Users could send feedback to help improve the app.</p>
                     <BentoRow type="halves">
                         <BentoCell>
-                            <img src='/images/Project images/FRM/f-lm-feedback.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-lm-feedback.png' loading="lazy" alt='' />
                         </BentoCell>
                         <BentoCell>
-                            <img src='/images/Project images/FRM/f-dm-feedback.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-dm-feedback.png' loading="lazy" alt='' />
                         </BentoCell>
                     </BentoRow>
                 </div>
