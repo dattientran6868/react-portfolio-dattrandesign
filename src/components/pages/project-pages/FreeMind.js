@@ -207,7 +207,7 @@ function FreeMind() {
                     <h2>5. Accessibility</h2>
                 </div>
                 <div className="large__image__grid">
-                    <p>I designed this app with accessibility features to ensure it provides an inclusive experience for a wide range of users.</p>
+                    <p>I designed this app with accessibility features based on the Accessibility Nutrition Labels from Apple to ensure it provides an inclusive experience for a wide range of users.</p>
                     <img src='images/project-images/FRM/F-D00.png' className='medium__image'></img>
                     <h3>VoiceOver</h3>
                     <p>Users could navigate and explore the app using gestures, keyboard, braille, and speech output.</p>
