@@ -77,6 +77,7 @@ function ComponentLibrary() {
                 <img loading="lazy" src='images/project-images/DS/DS-A04.png' className='large__image'></img>
                 <img loading="lazy" src='images/project-images/DS/DS-A05.png' className='large__image'></img>
                 <img loading="lazy" src='images/project-images/DS/DS-A06.png' className='large__image'></img>
+                <img loading="lazy" src='images/project-images/DS/DS-A07.png' className='large__image'></img>
             </div>
 
             <div id="section3">
@@ -111,6 +112,7 @@ function ComponentLibrary() {
                 </div>
                 <img loading="lazy" src='images/project-images/DS/DS-D01.png' className='large__image'></img>
                 <img loading="lazy" src='images/project-images/DS/DS-D02.png' className='large__image'></img>
+                <img loading="lazy" src='images/project-images/DS/DS-D03.png' className='large__image'></img>
             </div>
 
             <div id="section6">
