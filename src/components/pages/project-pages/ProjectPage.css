@@ -1,0 +1,174 @@
+/* ============================================
+   SHARED PROJECT PAGE STYLES
+   Used by ProductPage, AudienceRecommendation, ComponentLibrary, etc.
+   ============================================ */
+
+:root {
+    --project-sidebar-width: 14vw;
+    --project-sidebar-gap: 4rem;
+}
+
+.project-page h2 {
+    font-size: var(--font-size-2rem);
+    text-align: left;
+    padding: var(--space-8) 0 0;
+}
+
+.project-page h3 {
+    font-size: var(--font-size-15rem);
+    text-align: left;
+    padding: var(--space-8) 0 0;
+}
+
+.project-page h4 {
+    font-size: var(--font-size-1rem);
+    text-align: left;
+    font-weight: var(--font-weight-bold);
+    padding: var(--space-8) 0 0;
+}
+
+.project-page p {
+    font-size: var(--font-size-1rem);
+    padding: var(--space-2) 0 0;
+    max-width: 100%;
+}
+
+.project-page ol,
+.project-page ul {
+    font-size: var(--font-size-1rem);
+    padding: var(--space-2) 0 0 var(--space-8);
+    max-width: 100%;
+}
+
+.project-page li {
+    padding: 0 0 var(--space-2);
+}
+
+.project-page {
+    text-align: left;
+    color: var(--color-text-grey);
+    background-color: var(--bg-white);
+}
+
+.project-page a:visited {
+    color: var(--color-text-grey);
+}
+
+.project-page__container {
+    max-width: 1380px;
+    margin-inline: auto;
+    padding: var(--space-4) var(--space-16) var(--space-80);
+    padding-right: calc(var(--project-sidebar-width) + var(--project-sidebar-gap));
+}
+
+.project-page .section__name {
+    margin: 0;
+    padding: 5rem 0 0;
+}
+
+.project-page .xs__image,
+.project-page .sm__image,
+.project-page .md__image,
+.project-page .md__image__noshadow,
+.project-page .md__image__shadow,
+.project-page .lg__image {
+    display: block;
+    height: auto;
+    margin: var(--space-8) 0;
+    border-radius: var(--border-radius-1rem);
+    box-shadow: none;
+}
+
+.project-page .md__image__shadow {
+    box-shadow: var(--shadow-md);
+}
+
+.project-page .xs__image {
+    width: 35%;
+}
+
+.project-page .sm__image {
+    width: 70%;
+}
+
+.project-page .md__image,
+.project-page .md__image__noshadow,
+.project-page .md__image__shadow {
+    width: 90%;
+}
+
+.project-page .lg__image {
+    width: 100%;
+}
+
+.project-page .logo {
+    display: block;
+    margin: var(--space-20) auto;
+    height: 80px;
+    width: auto;
+}
+
+.project-page .space {
+    opacity: 0%;
+}
+
+/* ── Image grid wrapper (for grouping stacked images/videos, e.g. Bento rows) ── */
+.project-page .lg__image__grid {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+    margin: var(--space-8) 0;
+    width: 100%;
+}
+
+.project-page .lg__image__grid img {
+    width: auto;
+    height: 80%;
+    border-radius: var(--border-radius-1rem);
+}
+
+/* ── Tablet ───────────────────────────── */
+@media (min-width: 1081px) and (max-width: 1280px) {
+    .project-page__container {
+        padding: var(--space-4) var(--space-8) var(--space-8);
+        padding-right: calc(var(--project-sidebar-width) + var(--project-sidebar-gap));
+    }
+}
+
+/* ── Mobile ───────────────────────────── */
+@media (max-width: 1080px) {
+    .project-page__container {
+        padding: var(--space-4) var(--space-4) var(--space-8);
+    }
+
+    .project-page h2,
+    .project-page h3,
+    .project-page h4 {
+        padding: var(--space-6) 0 0;
+    }
+
+    .project-page p,
+    .project-page ol,
+    .project-page ul {
+        max-width: 100%;
+    }
+
+    .project-page ol,
+    .project-page ul {
+        padding-left: var(--space-6);
+    }
+
+    .project-page .xs__image,
+    .project-page .sm__image,
+    .project-page .md__image,
+    .project-page .md__image__noshadow,
+    .project-page .md__image__shadow,
+    .project-page .lg__image {
+        width: 100%;
+    }
+
+    .project-page .logo {
+        margin: var(--space-12) auto;
+        height: 56px;
+    }
+}

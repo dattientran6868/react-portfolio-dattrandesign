@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import '../../../App.css';
-import './DynamicGradient.css';
+// import '../../../App.css';
+import './ProjectPage.css';
+// import './DynamicGradient.css';
 import Sidebar from '../../Sidebar';
 import { BentoGrid } from "../../Grid";
 import { BentoRow } from "../../Grid";
@@ -48,15 +49,15 @@ function DynamicGradient() {
         setActiveSection(sectionId);
         const element = document.getElementById(sectionId);
         if (element) {
-            const y = element.getBoundingClientRect().top + window.scrollY - 32;
+            const y = element.getBoundingClientRect().top + window.scrollY + 32;
             window.scrollTo({ top: y, behavior: 'instant' });
         }
     };
 
 
     return (
-        <div className="project__container dynamic__gradient" >
-            <div className="large__image__grid">
+        <div className="project-page__container project-page dynamic__gradient" >
+            <div className="lg__image__grid">
                 <img src='images/project-images/DG/DG-0.png'></img>
             </div>
 
@@ -64,7 +65,7 @@ function DynamicGradient() {
                 <div className='section__name'>
                     <h2>1. Project overview</h2>
                 </div>
-                <div className="large__image__grid">
+                <div className="lg__image__grid">
                     <p>When working on my designs, I often needed gradient images and videos to enhance the overall visual experience. However, I couldn’t find a tool that offered enough flexibility to create different gradient styles and export them as videos. So, I built a creative tool that lets anyone customize, generate, and export gradients as images or videos — completely free.</p>
                 </div>
             </div>
@@ -74,7 +75,7 @@ function DynamicGradient() {
                     <h2>2. Mercury gradient</h2>
                 </div>
                 <p className='space'>A</p>
-                <div className="large__image__grid">
+                <div className="lg__image__grid">
                     <BentoRow type="full">
                         <BentoCell backgroundColor="#000000">
                             <div className="square-video-full-height">
@@ -90,7 +91,7 @@ function DynamicGradient() {
                     <h2>3. Wave gradient</h2>
                 </div>
                 <p className='space'>A</p>
-                <div className="large__image__grid">
+                <div className="lg__image__grid">
                     <BentoRow type="full">
                         <BentoCell backgroundColor="#000000">
                             <div className="square-video-full-height">
@@ -106,7 +107,7 @@ function DynamicGradient() {
                     <h2>4. Plasma gradient</h2>
                 </div>
                 <p className='space'>A</p>
-                <div className="large__image__grid">
+                <div className="lg__image__grid">
                     <BentoRow type="full">
                         <BentoCell backgroundColor="#000000">
                             <div className="square-video-full-height">
@@ -122,7 +123,7 @@ function DynamicGradient() {
                     <h2>5. Customizations and other features</h2>
                 </div>
                 <p>Users could customize how their gradients look with many customization controls.</p>
-                <div className="large__image__grid">
+                <div className="lg__image__grid">
                     <BentoRow type="halves">
                         <BentoCell>
                             <img src='/images/project-images/DG/dg-51.png' loading="lazy" alt='' />
@@ -133,7 +134,7 @@ function DynamicGradient() {
                     </BentoRow>
                 </div>
                 <p className='space'>A</p>
-                <div className="large__image__grid">
+                <div className="lg__image__grid">
                     <BentoRow type="halves">
                         <BentoCell>
                             <img src='/images/project-images/DG/dg-53.png' loading="lazy" alt='' />
@@ -144,7 +145,7 @@ function DynamicGradient() {
                     </BentoRow>
                 </div>
                 <p>Users could easily preview other types of gradients by hovering over the tab and export the gradient as an image or video.</p>
-                <div className="large__image__grid">
+                <div className="lg__image__grid">
                     <BentoRow type="halves">
                         <BentoCell>
                             <img src='/images/project-images/DG/dg-55.png' loading="lazy" alt='' />
@@ -160,12 +161,12 @@ function DynamicGradient() {
                 <div className='section__name'>
                     <h2>6. Experience the tool on the website</h2>
                 </div>
-                <div className="large__image__grid">
+                <div className="lg__image__grid">
                     <p>Everyone can customize, generate, and export gradients as images or videos at <a href="https://www.dynamicgradient.com/" target="_blank" rel="noreferrer" style={{ fontWeight: 'var(--font-weight-bold)' }}>www.dynamicgradient.com</a></p>
                 </div>
             </div>
 
-            <div className='side__bar'>
+            <div>
                 <Sidebar activeSection={activeSection} sections={sections} handleLinkClick={handleLinkClick} />
             </div>
         </div>

@@ -1,196 +1,160 @@
+:root {
+    --product-sidebar-width: 14vw;
+    --product-sidebar-gap: 4rem;
+}
+
 .product__page h2 {
-    font-size: 2rem;
+    font-size: var(--font-size-2rem);
     text-align: left;
-    padding: 2rem 0rem 0rem;
+    padding: var(--space-8) 0 0;
 }
 
 .product__page h3 {
-    font-size: 1.5rem;
+    font-size: var(--font-size-15rem);
     text-align: left;
-    padding: 2rem 1rem 0rem;
+    padding: var(--space-8) 0 0;
 }
 
 .product__page h4 {
-    font-size: 1rem;
+    font-size: var(--font-size-1rem);
     text-align: left;
-    font-weight: bold;
-    padding: 2rem 1rem 0rem;
+    font-weight: var(--font-weight-bold);
+    padding: var(--space-8) 0 0;
 }
 
 .product__page p {
-    font-size: 1rem;
-    padding: 0.5rem 1rem 0rem;
+    font-size: var(--font-size-1rem);
+    padding: var(--space-2) 0 0;
+    max-width: 100%;
 }
 
-.product__page ol {
-    font-size: 1rem;
-    padding: 0.5rem 2rem 0rem;
-}
-
+.product__page ol,
 .product__page ul {
-    font-size: 1rem;
-    padding: 0.5rem 2rem 0rem;
+    font-size: var(--font-size-1rem);
+    padding: var(--space-2) 0 0 var(--space-8);
+    max-width: 100%;
 }
 
 .product__page li {
-    padding: 0rem 0rem 0.5rem;
+    padding: 0 0 var(--space-2);
 }
 
 .product__page {
     text-align: left;
-    color: #344054;
-    background-color: #ffffff;
+    color: var(--color-text-grey);
+    background-color: var(--bg-white);
 }
 
 .product__page a:visited {
-    color: #344054;
+    color: var(--color-text-grey);
 }
 
-.extra__small__image {
-    width: 40%;
-    margin: 2rem auto;
-    border-radius: 0rem;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
+.product__page__project__container {
+    max-width: var(--bento-max-width, 1380px);
+    margin-inline: auto;
+    padding: var(--space-4) var(--space-16) var(--space-16);
+    padding-right: calc(var(--product-sidebar-width) + var(--product-sidebar-gap));
 }
 
-.small__image {
-    width: auto;
-    margin: 2rem 1rem;
-    border-radius: 0rem;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
+/* Scoped so it can't collide with a same-named class on another page */
+.product__page .section__name {
+    margin: 0;
+    padding: 5rem 0 0;
 }
 
-.medium__image {
-    width: auto;
-    margin: 2rem 1rem;
-    border-radius: 0rem;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
+/* Shared rules: no horizontal margin, radius, no shadow by default.
+   Renamed from extra_small/small/medium/large to xs/sm/md/lg and scoped
+   under .product__page so these can't collide with same-named classes
+   on other pages. */
+.product__page .xs__image,
+.product__page .sm__image,
+.product__page .md__image,
+.product__page .md__image__noshadow,
+.product__page .md__image__shadow,
+.product__page .lg__image {
+    display: block;
+    height: auto;
+    margin: var(--space-8) 0;
+    border-radius: var(--border-radius-1rem);
+    box-shadow: none;
 }
 
-.medium__image__noshadow {
-    width: auto;
-    margin: 2rem 1rem;
-    border-radius: 0rem;
+.product__page .md__image__shadow {
+    box-shadow: var(--shadow-md);
 }
 
+/* Distinct widths, matching the original file's sizing */
+.product__page .xs__image {
+    width: 35%;
+}
 
-.large__image {
-    width: auto;
-    margin: 2rem 1rem;
-    border-radius: 0rem;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
+.product__page .sm__image {
+    width: 60%;
+}
+
+.product__page .md__image,
+.product__page .md__image__noshadow,
+.product__page .md__image__shadow {
+    width: 90%;
+}
+
+.product__page .lg__image {
+    width: 100%;
 }
 
 .logo {
-    margin: 9rem auto 12rem;
+    display: block;
+    margin: var(--space-20) auto;
     height: 80px;
-}
-
-.section__name {
-    margin: 0rem 1rem 0rem 1rem;
-    /* border-bottom: 2px solid #000000; */
+    width: auto;
 }
 
 .space {
     opacity: 0%;
 }
 
-
-.large__image,
-.medium__image,
-.medium__image__noshadow,
-.small__image,
-.extra__small__image {
-    max-width: 100%;
+/* ── Tablet ───────────────────────────── */
+@media (min-width: 1081px) and (max-width: 1280px) {
+    .product__page__project__container {
+        padding: var(--space-4) var(--space-8) var(--space-8);
+        padding-right: calc(var(--product-sidebar-width) + var(--product-sidebar-gap));
+    }
 }
 
-
-
-@media only screen and (min-width: 1080px) {
-    .project__container {
-        padding: 0 10vw 20vh 10vw;
+/* ── Mobile — sidebar presumably hides here, so no reserved space ─────── */
+@media (max-width: 1080px) {
+    .product__page__project__container {
+        padding: var(--space-4) var(--space-4) var(--space-8);
     }
 
-    .product__page h2 {
-        padding: 2rem 0rem 0rem 0.5rem;
-    }
-
-    .product__page h3 {
-        padding: 2rem 12.5rem 0rem 0.5rem;
-    }
-
+    .product__page h2,
+    .product__page h3,
     .product__page h4 {
-        padding: 2rem 12.5rem 0rem 0.5rem;
+        padding: var(--space-6) 0 0;
     }
 
-    .product__page p {
-        padding: 0.5rem 18rem 0rem 0.5rem;
-    }
-
-    .product__page ol {
-        padding: 0.5rem 12.5rem 0.5rem 1.5rem;
-    }
-
+    .product__page p,
+    .product__page ol,
     .product__page ul {
-        padding: 0.5rem 12.5rem 0.5rem 1.5rem;
+        max-width: 100%;
     }
 
-    .product__page li {
-        margin: 0rem 0rem 0rem 0rem;
+    .product__page ol,
+    .product__page ul {
+        padding-left: var(--space-6);
     }
 
-    .product__page .extra__small__image {
-        width: 25%;
-        margin: 2rem 0rem 2rem 0.5rem;
-        border-radius: 1rem;
-        ;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
-
+    .product__page .xs__image,
+    .product__page .sm__image,
+    .product__page .md__image,
+    .product__page .md__image__noshadow,
+    .product__page .md__image__shadow,
+    .product__page .lg__image {
+        width: 100%;
     }
 
-    .product__page .small__image {
-        width: 40%;
-        margin: 2rem 50rem 2rem 0.5rem;
-        border-radius: 1rem;
-        ;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
+    .logo {
+        margin: var(--space-12) auto;
+        height: 56px;
     }
-
-    .product__page .medium__image {
-        width: 80%;
-        /* Ensures image fills available width */
-        height: auto;
-        /* Maintains aspect ratio */
-        margin: 2rem 18rem 2rem 0.5rem;
-        border-radius: 1rem;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
-    }
-
-    .product__page .medium__image__shadow {
-        width: 80%;
-        /* Ensures image fills available width */
-        height: auto;
-        /* Maintains aspect ratio */
-        margin: 2rem 18rem 2rem 0.5rem;
-        border-radius: 1rem;
-        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.18);
-    }
-
-    .product__page .large__image {
-        width: 70vw;
-        margin: 2rem 0.5rem;
-        border-radius: 1rem;
-        ;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
-    }
-
-    .product__page .section__name {
-        margin: 5rem 12.5rem 0rem 0rem;
-    }
-
-    .product__page .logo {
-        width: auto;
-        margin: 10rem 18rem 10rem 0.5rem;
-    }
-
 }

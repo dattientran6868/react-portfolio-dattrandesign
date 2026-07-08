@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import '../../../App.css';
-import './ComponentLibrary.css';
+// import '../../../App.css';
+import './ProjectPage.css';
+// import './ComponentLibrary.css';
 import Sidebar from '../../Sidebar';
 
 
@@ -52,9 +53,9 @@ function ComponentLibrary() {
 
 
     return (
-        <div className="project__container component__library" >
+        <div className="project-page__container project-page component__library" >
             <div>
-                <img src='images/project-images/DS/DS-00.png' className='large__image'></img>
+                <img src='images/project-images/DS/DS-00.png' className='lg__image'></img>
             </div>
 
             <div id="section1">
@@ -71,59 +72,59 @@ function ComponentLibrary() {
                 <div className='section__name'>
                     <h2>2. FOUNDATION</h2>
                 </div>
-                <img loading="lazy" src='images/project-images/DS/DS-A01.png' className='large__image'></img>
-                <img loading="lazy" src='images/project-images/DS/DS-A02.png' className='large__image'></img>
-                <img loading="lazy" src='images/project-images/DS/DS-A03.png' className='large__image'></img>
-                <img loading="lazy" src='images/project-images/DS/DS-A04.png' className='large__image'></img>
-                <img loading="lazy" src='images/project-images/DS/DS-A05.png' className='large__image'></img>
-                <img loading="lazy" src='images/project-images/DS/DS-A06.png' className='large__image'></img>
-                <img loading="lazy" src='images/project-images/DS/DS-A07.png' className='large__image'></img>
+                <img loading="lazy" src='images/project-images/DS/DS-A01.png' className='lg__image'></img>
+                <img loading="lazy" src='images/project-images/DS/DS-A02.png' className='lg__image'></img>
+                <img loading="lazy" src='images/project-images/DS/DS-A03.png' className='lg__image'></img>
+                <img loading="lazy" src='images/project-images/DS/DS-A04.png' className='lg__image'></img>
+                <img loading="lazy" src='images/project-images/DS/DS-A05.png' className='lg__image'></img>
+                <img loading="lazy" src='images/project-images/DS/DS-A06.png' className='lg__image'></img>
+                <img loading="lazy" src='images/project-images/DS/DS-A07.png' className='lg__image'></img>
             </div>
 
             <div id="section3">
                 <div className='section__name'>
                     <h2>3. DATA ENTRY</h2>
                 </div>
-                <img loading="lazy" src='images/project-images/DS/DS-B01.png' className='large__image'></img>
-                <img loading="lazy" src='images/project-images/DS/DS-B02.png' className='large__image'></img>
-                <img loading="lazy" src='images/project-images/DS/DS-B03.png' className='large__image'></img>
-                <img loading="lazy" src='images/project-images/DS/DS-B04.png' className='large__image'></img>
-                <img loading="lazy" src='images/project-images/DS/DS-B05.png' className='large__image'></img>
-                <img loading="lazy" src='images/project-images/DS/DS-B06.png' className='large__image'></img>
-                <img loading="lazy" src='images/project-images/DS/DS-B07.png' className='large__image'></img>
+                <img loading="lazy" src='images/project-images/DS/DS-B01.png' className='lg__image'></img>
+                <img loading="lazy" src='images/project-images/DS/DS-B02.png' className='lg__image'></img>
+                <img loading="lazy" src='images/project-images/DS/DS-B03.png' className='lg__image'></img>
+                <img loading="lazy" src='images/project-images/DS/DS-B04.png' className='lg__image'></img>
+                <img loading="lazy" src='images/project-images/DS/DS-B05.png' className='lg__image'></img>
+                <img loading="lazy" src='images/project-images/DS/DS-B06.png' className='lg__image'></img>
+                <img loading="lazy" src='images/project-images/DS/DS-B07.png' className='lg__image'></img>
             </div>
 
             <div id="section4">
                 <div className='section__name'>
                     <h2>4. DATA DISPLAY</h2>
                 </div>
-                <img loading="lazy" src='images/project-images/DS/DS-C01.png' className='large__image'></img>
-                <img loading="lazy" src='images/project-images/DS/DS-C02.png' className='large__image'></img>
-                <img loading="lazy" src='images/project-images/DS/DS-C03.png' className='large__image'></img>
-                <img loading="lazy" src='images/project-images/DS/DS-C04.png' className='large__image'></img>
-                <img loading="lazy" src='images/project-images/DS/DS-C05.png' className='large__image'></img>
-                <img loading="lazy" src='images/project-images/DS/DS-C06.png' className='large__image'></img>
-                <img loading="lazy" src='images/project-images/DS/DS-C07.png' className='large__image'></img>
+                <img loading="lazy" src='images/project-images/DS/DS-C01.png' className='lg__image'></img>
+                <img loading="lazy" src='images/project-images/DS/DS-C02.png' className='lg__image'></img>
+                <img loading="lazy" src='images/project-images/DS/DS-C03.png' className='lg__image'></img>
+                <img loading="lazy" src='images/project-images/DS/DS-C04.png' className='lg__image'></img>
+                <img loading="lazy" src='images/project-images/DS/DS-C05.png' className='lg__image'></img>
+                <img loading="lazy" src='images/project-images/DS/DS-C06.png' className='lg__image'></img>
+                <img loading="lazy" src='images/project-images/DS/DS-C07.png' className='lg__image'></img>
             </div>
 
             <div id="section5">
                 <div className='section__name'>
                     <h2>5. NAVIGATION</h2>
                 </div>
-                <img loading="lazy" src='images/project-images/DS/DS-D01.png' className='large__image'></img>
-                <img loading="lazy" src='images/project-images/DS/DS-D02.png' className='large__image'></img>
-                <img loading="lazy" src='images/project-images/DS/DS-D03.png' className='large__image'></img>
+                <img loading="lazy" src='images/project-images/DS/DS-D01.png' className='lg__image'></img>
+                <img loading="lazy" src='images/project-images/DS/DS-D02.png' className='lg__image'></img>
+                <img loading="lazy" src='images/project-images/DS/DS-D03.png' className='lg__image'></img>
             </div>
 
             <div id="section6">
                 <div className='section__name'>
                     <h2>6. FEEDBACK</h2>
                 </div>
-                <img loading="lazy" src='images/project-images/DS/DS-E01.png' className='large__image'></img>
-                <img loading="lazy" src='images/project-images/DS/DS-E02.png' className='large__image'></img>
-                <img loading="lazy" src='images/project-images/DS/DS-E03.png' className='large__image'></img>
-                <img loading="lazy" src='images/project-images/DS/DS-E04.png' className='large__image'></img>
-                <img loading="lazy" src='images/project-images/DS/DS-E05.png' className='large__image'></img>
+                <img loading="lazy" src='images/project-images/DS/DS-E01.png' className='lg__image'></img>
+                <img loading="lazy" src='images/project-images/DS/DS-E02.png' className='lg__image'></img>
+                <img loading="lazy" src='images/project-images/DS/DS-E03.png' className='lg__image'></img>
+                <img loading="lazy" src='images/project-images/DS/DS-E04.png' className='lg__image'></img>
+                <img loading="lazy" src='images/project-images/DS/DS-E05.png' className='lg__image'></img>
             </div>
 
             <div>
