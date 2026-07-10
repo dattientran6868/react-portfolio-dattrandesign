@@ -191,16 +191,16 @@ export default function HomePage() {
               <video ref={breathingVideoRef} playsInline autoPlay loop muted data-src="/images/home-images/f-br2.webm" />
             </div>
           </BentoCell>
-
           <BentoCell span={2}
             hoverable
-            label="Wave gradient"
-            onClick={() => setwaveGradientModalOpen(true)}
+            label="Mercury gradient"
+            onClick={() => setmercuryGradientModalOpen(true)}
             style={{ cursor: "pointer" }}>
             <div className="square-video-full-width" >
-              <video ref={waveGradientVideoRef} playsInline autoPlay loop muted data-src="/images/home-images/g-4.webm" />
+              <video ref={mercuryGradientVideoRef} playsInline autoPlay loop muted data-src="/images/home-images/g-5.webm" />
             </div>
           </BentoCell>
+
         </BentoRow>
         <BentoRow type="halves">
 
@@ -220,14 +220,14 @@ export default function HomePage() {
 
         </BentoRow>
 
-        {/* <BentoRow type="halves">
+        <BentoRow type="halves">
           <BentoCell
             hoverable
             label="Dynamic gradient studio"
             href="/dnmcgrdnt"
           >
             <div className="square-video-full-height">
-              <video playsInline autoPlay loop muted src="/images/home-images/dg-1.webm" />
+              <video playsInline autoPlay loop muted src="/images/home-images/dg-2.webm" />
             </div>
           </BentoCell>
           <BentoCell
@@ -236,16 +236,16 @@ export default function HomePage() {
             href="/frstprtdncnbrdng">
             <img src='/images/home-images/i-fpa.webp' loading="lazy" alt='' />
           </BentoCell>
-        </BentoRow> */}
+        </BentoRow>
 
         <BentoRow type="thirds">
           <BentoCell span={2}
             hoverable
-            label="Mercury gradient"
-            onClick={() => setmercuryGradientModalOpen(true)}
+            label="Wave gradient"
+            onClick={() => setwaveGradientModalOpen(true)}
             style={{ cursor: "pointer" }}>
             <div className="square-video-full-width" >
-              <video ref={mercuryGradientVideoRef} playsInline autoPlay loop muted data-src="/images/home-images/g-5.webm" />
+              <video ref={waveGradientVideoRef} playsInline autoPlay loop muted data-src="/images/home-images/g-4.webm" />
             </div>
           </BentoCell>
 
