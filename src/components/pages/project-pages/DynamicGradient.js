@@ -58,7 +58,7 @@ function DynamicGradient() {
     return (
         <div className="project-page__container project-page dynamic__gradient" >
             <div className="lg__image__grid">
-                <img src='images/project-images/DG/DG-0.png'></img>
+                <img src='images/project-images/DG/dg-0.png'></img>
             </div>
 
             <div id="section1">

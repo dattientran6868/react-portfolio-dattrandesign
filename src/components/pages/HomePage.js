@@ -409,7 +409,7 @@ export default function HomePage() {
         onClose={() => setaudienceModalOpen(false)}
         size="md"
         buttonLabel="View AI-powered Audience & Creative insights"
-        onButtonClick={() => navigate('/nvntrmrktplc')}
+        onButtonClick={() => navigate('/dncrcmmndtn')}
       >
         {audienceModalOpen && (
           <div>
