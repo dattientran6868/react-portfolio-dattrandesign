@@ -21,6 +21,7 @@ import ComponentLibrary from './components/pages/project-pages/ComponentLibrary'
 import FreeMind from './components/pages/project-pages/FreeMind';
 import DynamicGradient from './components/pages/project-pages/DynamicGradient';
 import FairShare from './components/pages/project-pages/FairShare';
+import DaiichiJapan from './components/pages/project-pages/DaiichiJapan';
 import HomePage from './components/pages/HomePage';
 import AboutPage from './components/pages/AboutPage';
 
@@ -54,6 +55,7 @@ function AppContent() {
 				<Route path='/frmnd' element={<FreeMind />} />
 				<Route path='/dnmcgrdnt' element={<DynamicGradient />} />
 				<Route path='/frshr' element={<FairShare />} />
+				<Route path='/dchjpn' element={<DaiichiJapan />} />
 				<Route path="*" element={<Navigate to="/" replace />} />
 
 			</Routes>

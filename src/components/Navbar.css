@@ -110,7 +110,7 @@
 
   .desktop-menu {
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(3, auto);
     grid-gap: var(--space-4);
     list-style: none;
     text-align: center;
