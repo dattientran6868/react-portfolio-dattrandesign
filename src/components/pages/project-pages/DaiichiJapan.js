@@ -84,7 +84,7 @@ function DaiichiJapan() {
                 <div className='section__name'>
                     <h2>2. DISCOVERY & ANALYSIS</h2>
                 </div>
-                <h3>Understanding the Existing Product Catalog</h3>
+                <h3>Understanding the existing product catalog</h3>
                 <p>I reviewed the existing product catalog to understand the types of information available for each product and identify the key details needed to build the website.</p>
                 <img loading="lazy" src='images/project-images/DJ/DJ-B01.png' className='sm__image'></img>
                 <h3>Competitive analysis</h3>
