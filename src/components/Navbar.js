@@ -24,8 +24,15 @@ function Navbar() {
 	const [click, setClick] = useState(false);
 	const [workOpen, setWorkOpen] = useState(false);
 	const [personalOpen, setPersonalOpen] = useState(false);
+	const [mobileWorkOpen, setMobileWorkOpen] = useState(false);
+	const [mobilePersonalOpen, setMobilePersonalOpen] = useState(false);
+
 	const handleClick = () => setClick(!click);
-	const closeMobileMenu = () => setClick(false);
+	const closeMobileMenu = () => {
+		setClick(false);
+		setMobileWorkOpen(false);
+		setMobilePersonalOpen(false);
+	};
 
 	const renderProjectItem = (p, closeFn) => (
 		<NavLink
@@ -103,23 +110,52 @@ function Navbar() {
 					</div>
 
 					<ul className={click ? 'nav-menu active' : 'nav-menu'}>
-						<li className='nav-item nav-item--mobile-heading'>Work</li>
-						{workProjects.map((p) => (
-							<li key={p.href} className='nav-item'>
-								<NavLink to={p.href} className='nav-links' onClick={closeMobileMenu}>
-									{p.label}
-								</NavLink>
-							</li>
-						))}
 
-						<li className='nav-item nav-item--mobile-heading'>Personal</li>
-						{personalProjects.map((p) => (
-							<li key={p.href} className='nav-item'>
-								<NavLink to={p.href} className='nav-links' onClick={closeMobileMenu}>
-									{p.label}
-								</NavLink>
-							</li>
-						))}
+						{/* Work accordion */}
+						<li className='nav-item nav-item--accordion'>
+							<button
+								className='nav-links nav-links--accordion-trigger'
+								onClick={() => setMobileWorkOpen(!mobileWorkOpen)}
+							>
+								Work
+								<i
+									className='fas fa-chevron-down accordion-chevron'
+									style={{ transform: mobileWorkOpen ? 'rotate(180deg)' : 'rotate(0deg)' }}
+								/>
+							</button>
+							<ul className={mobileWorkOpen ? 'accordion-panel accordion-panel--open' : 'accordion-panel'}>
+								{workProjects.map((p) => (
+									<li key={p.href}>
+										<NavLink to={p.href} className='accordion-link' onClick={closeMobileMenu}>
+											{p.label}
+										</NavLink>
+									</li>
+								))}
+							</ul>
+						</li>
+
+						{/* Personal accordion */}
+						<li className='nav-item nav-item--accordion'>
+							<button
+								className='nav-links nav-links--accordion-trigger'
+								onClick={() => setMobilePersonalOpen(!mobilePersonalOpen)}
+							>
+								Personal
+								<i
+									className='fas fa-chevron-down accordion-chevron'
+									style={{ transform: mobilePersonalOpen ? 'rotate(180deg)' : 'rotate(0deg)' }}
+								/>
+							</button>
+							<ul className={mobilePersonalOpen ? 'accordion-panel accordion-panel--open' : 'accordion-panel'}>
+								{personalProjects.map((p) => (
+									<li key={p.href}>
+										<NavLink to={p.href} className='accordion-link' onClick={closeMobileMenu}>
+											{p.label}
+										</NavLink>
+									</li>
+								))}
+							</ul>
+						</li>
 
 						<li className='nav-item'>
 							<NavLink to='/about' className='nav-links' onClick={closeMobileMenu}>About</NavLink>

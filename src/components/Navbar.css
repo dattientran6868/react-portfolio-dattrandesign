@@ -165,7 +165,7 @@
   }
 }
 
-/* ── Work dropdown ── */
+/* ── Work / Personal dropdowns (desktop) ── */
 .nav-item--dropdown {
   position: relative;
 }
@@ -247,4 +247,58 @@
   color: var(--color-text-grey);
   line-height: var(--line-height-base);
   text-align: left;
+}
+
+/* ── Work / Personal accordions (mobile) ── */
+.nav-item--accordion {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.nav-links--accordion-trigger {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-1rem);
+  font-weight: var(--font-weight-light);
+  color: var(--color-text-black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  width: 100%;
+  padding: var(--space-3);
+}
+
+.accordion-chevron {
+  font-size: 0.7rem;
+  transition: transform var(--transition-fast);
+}
+
+.accordion-panel {
+  list-style: none;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height var(--transition-slow);
+  padding: 0;
+  margin: 0;
+}
+
+.accordion-panel--open {
+  max-height: 1000px;
+}
+
+.accordion-link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: var(--color-text-grey);
+  font-size: 0.9rem;
+  padding: var(--space-2) var(--space-3);
+}
+
+.accordion-link:hover {
+  color: var(--color-text-black);
 }
