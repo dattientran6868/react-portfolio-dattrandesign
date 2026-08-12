@@ -62,11 +62,11 @@ function MoMo() {
         <div className='section__name'>
           <h2>1. PROJECT OVERVIEW</h2>
         </div>
-        <h3>Context</h3>
+        <h3>Context & Problem</h3>
         <p>MoMo was one of the most popular financial payment apps in Vietnam. It offered a mini financial app called Golden Pocket, which allowed users to save money and earn interest daily.</p>
         <p>In 2021, Golden Pocket was still fairly new, and many users did not fully understand its benefits. Unlike traditional bank savings, which typically paid interest over months or years, Golden Pocket allowed users to earn interest daily.</p>
         <h3>Project objective</h3>
-        <p>The goal was to help users easily understand the benefits of Golden Pocket. We built an interest calculator that showed users how their money could grow over time by earning interest daily.</p>
+        <p>Our goal was to grow deposits by making Golden Pocket's benefits easy to understand. We built an interest calculator showing users how their money would grow through daily compounding interest.</p>
         <h3>Project duration</h3>
         <p>I worked as the Growth Designer on this project. What I show in this portfolio was my contribution to the project.</p>
       </div>

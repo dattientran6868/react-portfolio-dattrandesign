@@ -63,7 +63,7 @@ function FI() {
                 <div className='section__name'>
                     <h2>1. PROJECT OVERVIEW</h2>
                 </div>
-                <h3>Context</h3>
+                <h3>Context & Problem</h3>
                 <p>{`illumin is a journey advertising platform that seamlessly integrates media planning and buying within an interactive and intuitive interface. Prior to this project, illumin solely facilitated running ads on websites. This project signified the platform's initial venture into social media integration, marking a significant milestone in the company's history.`}</p>
                 <h3>Project objective</h3>
                 <p>The goal of this project was to develop a robust set of features that empower users to seamlessly create and efficiently manage their Facebook and Instagram advertisements directly within the illumin platform.</p>

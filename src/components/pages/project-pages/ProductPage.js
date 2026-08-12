@@ -62,7 +62,7 @@ function ProductPage() {
         <div className='section__name'>
           <h2>1. PROJECT OVERVIEW</h2>
         </div>
-        <h3>Context</h3>
+        <h3>Context & Problem</h3>
         <p>Criteo Commerce Max (CMax) was a platform that helped advertisers create and manage retail media campaigns. One important step was selecting products to include in a line item.</p>
         <p>In the original product selection page, users had to already know exactly which products they wanted. There was little support for browsing or discovering products. Because of this, users usually selected only 1–2 products per line item.</p>
         <p>This created a problem. For better performance—especially when using Dynamic Match targeting—campaigns worked best when at least 10 products were selected.</p>

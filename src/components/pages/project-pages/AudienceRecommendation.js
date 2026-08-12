@@ -62,7 +62,7 @@ function AudienceRecommendation() {
         <div className='section__name'>
           <h2>1. PROJECT OVERVIEW</h2>
         </div>
-        <h3>Context</h3>
+        <h3>Context & Problem</h3>
         <p>One of the biggest challenges in running ads was finding the right audience, especially when a campaign did not perform well. When results were poor, advertisers tried to reach more people to increase impressions. However, there were many audience options available in the third-party market. With so many choices, it was hard for advertisers to know which audiences were the best fit for their campaigns.</p>
         <h3>Project objective</h3>
         <p>To solve this problem, we used AI to recommend the most suitable and high-potential audiences and creative sizes. Our system analyzed campaign data and suggested audience segments and creative sizes that were more likely to improve performance and deliver better results.</p>

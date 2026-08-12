@@ -60,7 +60,7 @@ function SupportCenter() {
                 <div className='section__name'>
                     <h2>1. PROJECT OVERVIEW</h2>
                 </div>
-                <h3>Context</h3>
+                <h3>Context & Problem</h3>
                 <p>Before this project, the illumin knowledge base suffered from poor UX and UI. It lacked a clear information architecture, making it difficult for users to navigate topics and find articles. The outdated and inconsistent UI further hindered the experience. Additionally, users had no option to submit support tickets independently, relying entirely on the CSM team for assistance.</p>
                 <p>Below are screenshots showcasing the previous support center's design, highlighting its limitations in terms of usability, inconsistent UI, and lack of self-service support options.</p>
                 <img loading="lazy" src='images/project-images/SC/SC-A1.png' className='lg__image'></img>

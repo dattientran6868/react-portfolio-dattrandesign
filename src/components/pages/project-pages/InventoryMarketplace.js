@@ -62,7 +62,7 @@ function InventoryMarketplace() {
         <div className='section__name'>
           <h2>1. PROJECT OVERVIEW</h2>
         </div>
-        <h3>Context</h3>
+        <h3>Context & Problem</h3>
         <p>Before this project, the experience of browsing and selecting deals was poor. Users had to search through a small modal with limited filters and not enough information to make informed decisions.</p>
         <img loading="lazy" src='images/project-images/IM/IM-A02.png' className='lg__image'></img>
         <h3>Project objective</h3>

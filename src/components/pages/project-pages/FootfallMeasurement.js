@@ -60,7 +60,7 @@ function FootfallMeasurement() {
                 <div className='section__name'>
                     <h2>1. PROJECT OVERVIEW</h2>
                 </div>
-                <h3>Context</h3>
+                <h3>Context & Problem</h3>
                 <p>illumin was a platform that empowered marketers to create meaningful cross-channel advertising campaigns. There was a need for users to measure how their ads influenced visits to specific locations, such as shops or restaurants. Adsquare offered a reliable solution for tracking and understanding this impact. To meet users' needs, we decided to integrate Adsquare's Footfall measurement feature into our product.</p>
                 <h3>Project objective</h3>
                 <p>The objective of this project was to design a feature that enabled users to measure how their advertising journeys influenced the number of visitors to specific locations.</p>

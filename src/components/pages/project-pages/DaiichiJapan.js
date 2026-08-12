@@ -60,7 +60,7 @@ function DaiichiJapan() {
                 <div className='section__name'>
                     <h2>1. PROJECT OVERVIEW</h2>
                 </div>
-                <h3>Context</h3>
+                <h3>Context & Problem</h3>
                 <p>Dai-ichi Japan was a dedicated importer and distributor of premium food products, specializing in Southeast Asian groceries. The company provided a curated selection of fresh and authentic ingredients to businesses across Japan.</p>
                 <p>However, they did not have a website to showcase their products or receive customer inquiries and orders online. Customers had to contact the company through traditional channels, which made the ordering process less efficient.</p>
                 <h3>Project objective</h3>
