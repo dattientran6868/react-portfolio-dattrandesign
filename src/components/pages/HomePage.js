@@ -236,12 +236,19 @@ export default function HomePage() {
             href="/frstprtdncnbrdng">
             <img src='/images/home-images/i-fpa.webp' loading="lazy" alt='' />
           </BentoCell>
+
           <BentoCell
             hoverable
             label="Dai-ichi Japan wholesale website"
             href="/dchjpn">
             <img src='/images/home-images/dj.webp' loading="lazy" alt='' />
           </BentoCell>
+          {/* <BentoCell
+            hoverable
+            label="First-party audience onboarding"
+            href="/1">
+            <img src='/images/home-images/mm.webp' loading="lazy" alt='' />
+          </BentoCell> */}
         </BentoRow>
 
         <BentoRow type="thirds">
