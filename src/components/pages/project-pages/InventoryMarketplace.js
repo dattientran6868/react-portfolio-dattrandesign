@@ -91,6 +91,10 @@ function InventoryMarketplace() {
           <h2>3. IDEATION & CONCEPT DEVELOPMENT</h2>
         </div>
         <p className='space'>A</p>
+        <h3>The big picture</h3>
+        <p>I built a diagram to illustrate the cross-app experience of Inventory Marketplace. In reality, I designed the entire experience across all of these touchpoints.</p>
+        <p>However, to keep the story simple and easy to follow, I’m focusing this portfolio case study on the Inventory Marketplace and showing how users can save deals to My Deals and add them to Journeys. (2 bold black arrows)</p>
+        <img loading="lazy" src='images/project-images/IM/IM-C00.png' className='md__image'></img>
         <h3>User flow</h3>
         <p>Initiated this phase by creating user flows based on insights from competitive analysis and user story mapping</p>
         <img loading="lazy" src='images/project-images/IM/IM-C01.png' className='lg__image'></img>
