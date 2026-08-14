@@ -12,7 +12,7 @@ const workProjects = [
 	{ label: 'First Party Audience Onboarding', href: '/frstprtdncnbrdng', img: '/images/illumin-icon.svg' },
 	{ label: 'Design System: Component Library', href: '/dsgnsstm', img: '/images/illumin-icon.svg' },
 	{ label: 'Wholesale Ecommerce Website', href: '/dchjpn', img: '/images/dj-text-icon.svg' },
-	{ label: 'Golden Pocket Interest Calculator', href: '/mm', img: '/images/momo-logo.svg' },
+	// { label: 'Golden Pocket Interest Calculator', href: '/mm', img: '/images/momo-logo.svg' },
 ];
 
 const personalProjects = [
