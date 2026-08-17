@@ -85,7 +85,7 @@
 
 /* Distinct widths, matching the original file's sizing */
 .product__page .xs__image {
-    width: 35%;
+    width: 50%;
 }
 
 .product__page .sm__image {
