@@ -16,6 +16,7 @@ import FootfallMeasurement from './components/pages/project-pages/FootfallMeasur
 import InventoryMarketplace from './components/pages/project-pages/InventoryMarketplace';
 import AudienceRecommendation from './components/pages/project-pages/AudienceRecommendation';
 import ProductPage from './components/pages/project-pages/ProductPage';
+import AudienceTargeting from './components/pages/project-pages/AudienceTargeting';
 import SupportCenter from './components/pages/project-pages/SupportCenter';
 import ComponentLibrary from './components/pages/project-pages/ComponentLibrary';
 import FreeMind from './components/pages/project-pages/FreeMind';
@@ -53,6 +54,7 @@ function AppContent() {
 				<Route path='/spprtcntr' element={<SupportCenter />} />
 				<Route path='/dsgnsstm' element={<ComponentLibrary />} />
 				<Route path='/prdctpg' element={<ProductPage />} />
+				<Route path='/dncrnfst' element={<AudienceTargeting />} />
 				<Route path='/frmnd' element={<FreeMind />} />
 				<Route path='/dnmcgrdnt' element={<DynamicGradient />} />
 				<Route path='/frshr' element={<FairShare />} />

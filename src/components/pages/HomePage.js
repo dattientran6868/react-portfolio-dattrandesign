@@ -93,9 +93,9 @@ export default function HomePage() {
 
           <BentoCell
             hoverable
-            label="Footfall measurement"
-            href="/ftfllmsrmnt">
-            <img src='/images/home-images/i-fm.webp' loading="lazy" alt='' />
+            label="Audience Run-of-site Targeting"
+            href="/dncrnfst">
+            <img src='/images/home-images/c-at.webp' loading="lazy" alt='' />
           </BentoCell>
 
         </BentoRow>
@@ -203,13 +203,13 @@ export default function HomePage() {
           </BentoCell>
         </BentoRow>
         <BentoRow type="halves">
-
           <BentoCell
             hoverable
-            label="Support center"
-            href="/spprtcntr">
-            <img src='/images/home-images/i-sc.webp' loading="lazy" alt='' />
+            label="Footfall measurement"
+            href="/ftfllmsrmnt">
+            <img src='/images/home-images/i-fm.webp' loading="lazy" alt='' />
           </BentoCell>
+
 
           <BentoCell
             hoverable
@@ -230,12 +230,20 @@ export default function HomePage() {
               <video playsInline autoPlay loop muted src="/images/home-images/dg-2.webm" />
             </div>
           </BentoCell> */}
+
           <BentoCell
+            hoverable
+            label="Support center"
+            href="/spprtcntr">
+            <img src='/images/home-images/i-sc.webp' loading="lazy" alt='' />
+          </BentoCell>
+
+          {/* <BentoCell
             hoverable
             label="First-party audience onboarding"
             href="/frstprtdncnbrdng">
             <img src='/images/home-images/i-fpa.webp' loading="lazy" alt='' />
-          </BentoCell>
+          </BentoCell> */}
 
           <BentoCell
             hoverable

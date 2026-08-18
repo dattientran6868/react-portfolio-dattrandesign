@@ -4,6 +4,7 @@ import './Navbar.css';
 
 const workProjects = [
 	{ label: 'Product Selection Page', href: '/prdctpg', img: '/images/criteo-icon.svg' },
+	{ label: 'Audience Run-of-site Targeting', href: '/dncrnfst', img: '/images/criteo-icon.svg' },
 	{ label: 'Inventory Marketplace', href: '/nvntrmrktplc', img: '/images/illumin-icon.svg' },
 	{ label: 'Facebook & Instagram Integration', href: '/fcbknstgrmntgrtn', img: '/images/illumin-icon.svg' },
 	{ label: 'AI-powered Insights', href: '/dncrcmmndtn', img: '/images/illumin-icon.svg' },
