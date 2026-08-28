@@ -17,7 +17,7 @@ const workProjects = [
 ];
 
 const personalProjects = [
-	{ label: 'FreeMind', href: '/frmnd', img: '/images/freemind-icon.svg' },
+	{ label: 'FreeMind: Relax & Reflect', href: '/frmnd', img: '/images/freemind-icon.svg' },
 	{ label: 'FairShare', href: '/frshr', img: '/images/fairshare-icon.svg' },
 	{ label: 'Dynamic Gradient Studio', href: '/dnmcgrdnt', img: '/images/dynamicgradient-icon.svg' },
 ];
