@@ -23,6 +23,7 @@ export default function HomePage() {
   const [mercuryGradientModalOpen, setmercuryGradientModalOpen] = useState(false);
   const [measurementCardModalOpen, setmeasurementCardModalOpen] = useState(false);
   const [stockAppModalOpen, setstockAppModalOpen] = useState(false);
+  const [chatAIModalOpen, setchatAIModalOpen] = useState(false);
   const chartVideoRef = useLazyVideo();
   const breathingVideoRef = useLazyVideo();
   const logoVideoRef = useLazyVideo();
@@ -32,6 +33,7 @@ export default function HomePage() {
   const previewGradientVideoRef = useLazyVideo();
   const waveGradientVideoRef = useLazyVideo();
   const mercuryGradientVideoRef = useLazyVideo();
+  const chatAIVideoRef = useLazyVideo();
   const navigate = useNavigate();
 
   return (
@@ -122,21 +124,11 @@ export default function HomePage() {
             </div>
           </BentoCell>
 
-          {/* <BentoCell span={1}
+          <BentoCell span={1}
             hoverable
             label="AI-powered Cost guidance tool">
             <div className="square-video" onClick={() => setChartModalOpen(true)} style={{ cursor: "pointer" }}>
               <video ref={chartVideoRef} playsInline autoPlay loop muted data-src="/images/home-images/i-im-c.webm" />
-            </div>
-          </BentoCell> */}
-
-          <BentoCell span={1}
-            hoverable
-            label="Product cards"
-            onClick={() => setproductSelectionModalOpen(true)}
-            style={{ cursor: "pointer" }}>
-            <div className="square-video-full-height" >
-              <video ref={productSelectionVideoRef} playsInline autoPlay loop muted data-src="/images/home-images/p-s3.webm" />
             </div>
           </BentoCell>
 
@@ -272,6 +264,30 @@ export default function HomePage() {
 
           <BentoCell span={1}
             hoverable
+            label="AI-powered FreeMind Chat"
+            onClick={() => setchatAIModalOpen(true)}
+            style={{ cursor: "pointer" }}>
+            <div className="square-video-full-height" >
+              <video ref={chatAIVideoRef} playsInline autoPlay loop muted data-src="/images/home-images/f-chat.webm" />
+            </div>
+          </BentoCell>
+
+        </BentoRow>
+
+        {/* Row 7 – Type 2: three equal squares */}
+        <BentoRow type="thirds">
+          <BentoCell span={1}
+            hoverable
+            label="Product cards"
+            onClick={() => setproductSelectionModalOpen(true)}
+            style={{ cursor: "pointer" }}>
+            <div className="square-video-full-height" >
+              <video ref={productSelectionVideoRef} playsInline autoPlay loop muted data-src="/images/home-images/p-s3.webm" />
+            </div>
+          </BentoCell>
+
+          <BentoCell span={1}
+            hoverable
             label="AI-powered insights panel"
             onClick={() => setaudienceModalOpen(true)}
             style={{ cursor: "pointer" }}>
@@ -280,11 +296,6 @@ export default function HomePage() {
             </div>
           </BentoCell>
 
-
-        </BentoRow>
-
-        {/* Row 7 – Type 2: three equal squares */}
-        {/* <BentoRow type="thirds">
           <BentoCell span={1}
             hoverable
             label="3D FreeMind logo"
@@ -294,25 +305,7 @@ export default function HomePage() {
               <video ref={logoFreemindVideoRef} playsInline autoPlay loop muted data-src="/images/home-images/f-lg3.webm" />
             </div>
           </BentoCell>
-
-          <BentoCell span={1}
-            hoverable
-            label="Audience insights panel"
-            onClick={() => setaudienceModalOpen(true)}
-            style={{ cursor: "pointer" }}>
-            <div className="square-video-full-height" >
-              <video ref={audienceVideoRef} playsInline autoPlay loop muted data-src="/images/home-images/i-ai-panel.webm" />
-            </div>
-          </BentoCell>
-
-          <BentoCell
-            hoverable
-            label="Measurement card"
-            onClick={() => setmeasurementCardModalOpen(true)}
-            style={{ cursor: "pointer" }}>
-            <img src="images/home-images/Illumin-footfall-card.png"></img>
-          </BentoCell>
-        </BentoRow> */}
+        </BentoRow>
 
         {/* Row 7 – Type 2: three equal squares */}
         <BentoRow type="thirds">
@@ -502,6 +495,21 @@ export default function HomePage() {
         )}
         <p>I designed the measurement card for the Measurement Marketplace, and it was later reused in the Footfall Measurement feature.
         </p>
+      </Modal>
+
+      <Modal
+        isOpen={chatAIModalOpen}
+        onClose={() => setchatAIModalOpen(false)}
+        size="md"
+        buttonLabel="View FreeMind app"
+        onButtonClick={() => navigate('/frmnd')}
+      >
+        {chatAIModalOpen && (
+          <div>
+            <video playsInline autoPlay loop muted src="/images/home-images/f-chat.webm" />
+          </div>
+        )}
+        <p>The AI-powered chat helped users better understand themselves and easily identify patterns in their thoughts and behaviors.</p>
       </Modal>
 
       <Modal

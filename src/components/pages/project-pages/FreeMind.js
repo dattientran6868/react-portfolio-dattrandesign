@@ -154,6 +154,32 @@ function FreeMind() {
                             <img src='/images/project-images/FRM/f-dm-emoji-picker.png' loading="lazy" alt='' />
                         </BentoCell>
                     </BentoRow>
+                    <p>The AI-powered summary gave users a clear overview of their experiences and reflections each month.</p>
+                    <BentoRow type="halves">
+                        <BentoCell>
+                            <img src='/images/project-images/FRM/f-lm-summary.png' loading="lazy" alt='' />
+                        </BentoCell>
+                        <BentoCell>
+                            <img src='/images/project-images/FRM/f-dm-summary.png' loading="lazy" alt='' />
+                        </BentoCell>
+                    </BentoRow>
+                    <p>The AI-powered chat helped users better understand themselves and easily identify patterns in their thoughts and behaviors.</p>
+                    <BentoRow type="halves">
+                        <BentoCell>
+                            <img src='/images/project-images/FRM/f-lm-chat.png' loading="lazy" alt='' />
+                        </BentoCell>
+                        <BentoCell>
+                            <img src='/images/project-images/FRM/f-dm-chat.png' loading="lazy" alt='' />
+                        </BentoCell>
+                    </BentoRow>
+                    <BentoRow type="halves">
+                        <BentoCell>
+                            <img src='/images/project-images/FRM/f-lm-reply.png' loading="lazy" alt='' />
+                        </BentoCell>
+                        <BentoCell>
+                            <img src='/images/project-images/FRM/f-dm-reply.png' loading="lazy" alt='' />
+                        </BentoCell>
+                    </BentoRow>
                 </div>
             </div>
 
