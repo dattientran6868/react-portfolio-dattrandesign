@@ -1,5 +1,5 @@
 .copy {
-    padding: 3rem;
+    padding: 5rem;
     background: (--bg-white);
     height: 100%;
     align-content: center;
@@ -24,4 +24,131 @@
 
 .contact-content a:visited {
     color: (--color-text-grey);
+}
+
+.about-page .bento-row--auto {
+    height: auto;
+    min-height: 0;
+    grid-template-rows: auto;
+    grid-auto-rows: auto;
+}
+
+.about-page .bento-cell--auto {
+    height: auto;
+    min-height: 0;
+    aspect-ratio: auto;
+    overflow: hidden;
+}
+
+.about-page .bento-cell--auto .bento-cell__inner {
+    position: relative;
+    inset: auto;
+    height: auto;
+    min-height: 0;
+}
+
+.education {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    /* gap: 24px; */
+    padding: 5rem;
+    text-align: left;
+}
+
+.about__title {
+    margin: 0;
+    padding-bottom: var(--space-6);
+    font-size: var(--font-size-15rem);
+    font-style: normal;
+}
+
+.education__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.education__item {
+    display: block;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--color-border, rgba(0, 0, 0, 0.1));
+}
+
+.education__item:first-child {
+    border-top: 1px solid var(--color-border, rgba(0, 0, 0, 0.1));
+}
+
+.education__link,
+.education__row {
+    display: flex;
+    align-items: center;
+    gap: var(--space-8);
+}
+
+.education__link {
+    color: inherit;
+    text-decoration: none;
+    width: 100%;
+}
+
+.education__link:hover .education__name {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.education__link:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 4px;
+    border-radius: 8px;
+}
+
+.education__logo {
+    width: 80px;
+    height: 60px;
+    max-width: 80px;
+    flex-shrink: 0;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.education__text {
+    flex: 1;
+    min-width: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    column-gap: 16px;
+}
+
+
+.education__org {
+    margin-left: auto;
+    text-align: right;
+    opacity: 0.7;
+}
+
+
+@media (max-width: 1200px) {
+    .copy {
+        padding: 2rem;
+    }
+
+    .education {
+        padding: 2rem;
+    }
+
+    .education__text {
+        flex-direction: column;
+    }
+
+    .education__org {
+        margin-left: 0;
+        text-align: left;
+    }
 }
