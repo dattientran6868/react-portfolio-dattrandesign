@@ -16,6 +16,12 @@ const education = [
         logo: '/images/about-ueh.png',
     },
     {
+        title: 'AI and Career Empowerment',
+        org: 'University of Maryland',
+        logo: '/images/about-maryland.png',
+        url: 'https://drive.google.com/file/d/18oQv8AeMSad8s5z3bAmJRGk3RS-ALAJf/view?usp=sharing',
+    },
+    {
         title: 'AI Fluency for Creative Work',
         org: 'Claude Academy',
         logo: '/images/about-claude.png',
