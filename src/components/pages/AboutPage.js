@@ -22,6 +22,12 @@ const education = [
         url: 'https://drive.google.com/file/d/18oQv8AeMSad8s5z3bAmJRGk3RS-ALAJf/view?usp=sharing',
     },
     {
+        title: 'Agents and Workflows',
+        org: 'OpenAI Academy',
+        logo: '/images/about-openAI.png',
+        url: 'https://oaiacademy.credential.net/d5e7e587-068c-4ca1-b39f-1789982ca420?key=ea657b636f32efc8cb377eaee61763a4ffb3df8d8180ac44d6d6c5003d710b3f',
+    },
+    {
         title: 'AI Fluency for Creative Work',
         org: 'Claude Academy',
         logo: '/images/about-claude.png',
