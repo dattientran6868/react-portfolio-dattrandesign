@@ -24,7 +24,7 @@ const education = [
     {
         title: 'Agents and Workflows',
         org: 'OpenAI Academy',
-        logo: '/images/about-openAI.png',
+        logo: '/images/about-openai.png',
         url: 'https://oaiacademy.credential.net/d5e7e587-068c-4ca1-b39f-1789982ca420?key=ea657b636f32efc8cb377eaee61763a4ffb3df8d8180ac44d6d6c5003d710b3f',
     },
     {
